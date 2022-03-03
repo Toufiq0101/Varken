@@ -1,0 +1,24 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+#body
+{
+    height: 100%;
+    width: 70%;
+    position: relative;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 20px;
+    margin-top: 85px;
+    overflow: hidden;
+}

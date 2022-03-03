@@ -1,0 +1,398 @@
+[22-Jul-2021 16:56:19 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/halkaazn/public_html/seller/database_connection.php on line 7
+[22-Jul-2021 16:56:19 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/halkaazn/public_html/seller/database_connection.php on line 7
+[22-Jul-2021 16:56:37 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/halkaazn/public_html/seller/database_connection.php on line 7
+[22-Jul-2021 16:58:18 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/halkaazn/public_html/seller/database_connection.php on line 7
+[22-Jul-2021 16:58:18 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/halkaazn/public_html/seller/database_connection.php on line 7
+[22-Jul-2021 16:58:22 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/halkaazn/public_html/seller/database_connection.php on line 7
+[22-Jul-2021 16:58:25 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/halkaazn/public_html/seller/database_connection.php on line 7
+[22-Jul-2021 16:58:26 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/halkaazn/public_html/seller/database_connection.php on line 7
+[22-Jul-2021 16:58:26 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/halkaazn/public_html/seller/database_connection.php on line 7
+[22-Jul-2021 16:58:28 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/halkaazn/public_html/seller/database_connection.php on line 7
+[22-Jul-2021 16:58:30 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/halkaazn/public_html/seller/database_connection.php on line 7
+[22-Jul-2021 16:58:37 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/halkaazn/public_html/seller/database_connection.php on line 7
+[22-Jul-2021 16:58:38 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/halkaazn/public_html/seller/database_connection.php on line 7
+[22-Jul-2021 16:58:39 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/halkaazn/public_html/seller/database_connection.php on line 7
+[22-Jul-2021 16:58:40 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/halkaazn/public_html/seller/database_connection.php on line 7
+[22-Jul-2021 16:58:45 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/halkaazn/public_html/seller/database_connection.php on line 7
+[22-Jul-2021 16:58:47 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/halkaazn/public_html/seller/database_connection.php on line 7
+[22-Jul-2021 16:58:52 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/halkaazn/public_html/seller/database_connection.php on line 7
+[22-Jul-2021 17:17:42 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/halkaazn/public_html/seller/database_connection.php on line 7
+[22-Jul-2021 17:17:43 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/halkaazn/public_html/seller/database_connection.php on line 7
+[22-Jul-2021 17:49:59 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/halkaazn/public_html/seller/database_connection.php on line 7
+[22-Jul-2021 17:49:59 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/halkaazn/public_html/seller/database_connection.php on line 7
+[22-Jul-2021 18:08:00 UTC] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'halkaazn'@'localhost' to database 'client_storage' in /home3/halkaazn/public_html/seller/database_connection.php on line 7
+[22-Jul-2021 18:08:00 UTC] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'halkaazn'@'localhost' to database 'client_storage' in /home3/halkaazn/public_html/seller/database_connection.php on line 7
+[22-Jul-2021 18:16:12 UTC] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'halkaazn'@'localhost' to database 'client_storage' in /home3/halkaazn/public_html/seller/database_connection.php on line 7
+[22-Jul-2021 18:16:12 UTC] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'halkaazn'@'localhost' to database 'client_storage' in /home3/halkaazn/public_html/seller/database_connection.php on line 7
+[22-Jul-2021 18:16:28 UTC] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'halkaazn_root'@'localhost' to database 'client_storage' in /home3/halkaazn/public_html/seller/database_connection.php on line 7
+[22-Jul-2021 18:16:28 UTC] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'halkaazn_root'@'localhost' to database 'client_storage' in /home3/halkaazn/public_html/seller/database_connection.php on line 7
+[22-Jul-2021 18:17:58 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'halkaazn'@'localhost' (using password: NO) in /home3/halkaazn/public_html/seller/database_connection.php on line 7
+[22-Jul-2021 18:17:58 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'halkaazn'@'localhost' (using password: NO) in /home3/halkaazn/public_html/seller/database_connection.php on line 7
+[23-Jul-2021 01:12:49 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'halkaazn'@'localhost' (using password: NO) in /home3/halkaazn/public_html/seller/database_connection.php on line 7
+[23-Jul-2021 01:12:49 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'halkaazn'@'localhost' (using password: NO) in /home3/halkaazn/public_html/seller/database_connection.php on line 7
+[23-Jul-2021 01:54:01 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'halkaazn'@'localhost' (using password: NO) in /home3/halkaazn/public_html/seller/database_connection.php on line 7
+[23-Jul-2021 01:54:01 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'halkaazn'@'localhost' (using password: NO) in /home3/halkaazn/public_html/seller/database_connection.php on line 7
+[23-Jul-2021 01:54:07 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'halkaazn'@'localhost' (using password: NO) in /home3/halkaazn/public_html/seller/database_connection.php on line 7
+[23-Jul-2021 01:54:08 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'halkaazn'@'localhost' (using password: NO) in /home3/halkaazn/public_html/seller/database_connection.php on line 7
+[25-Jul-2021 10:52:21 UTC] PHP Warning:  unlink(../../uploaded_files/): Is a directory in /home3/halkaazn/public_html/seller/control/client_account_ctrl.php on line 2
+[07-Aug-2021 06:47:41 UTC] PHP Warning:  unlink(../../uploaded_files/): Is a directory in /home3/halkaazn/public_html/seller/control/product_ctrl.php on line 1
+[08-Aug-2021 01:02:14 UTC] PHP Warning:  unlink(../../uploaded_files/): Is a directory in /home3/halkaazn/public_html/seller/control/product_ctrl.php on line 1
+[08-Aug-2021 01:03:12 UTC] PHP Warning:  unlink(../../uploaded_files/): Is a directory in /home3/halkaazn/public_html/seller/control/product_ctrl.php on line 1
+[08-Aug-2021 01:15:42 UTC] PHP Warning:  unlink(../../uploaded_files/): Is a directory in /home3/halkaazn/public_html/seller/control/product_ctrl.php on line 1
+[08-Aug-2021 01:16:51 UTC] PHP Warning:  unlink(../../uploaded_files/): Is a directory in /home3/halkaazn/public_html/seller/control/product_ctrl.php on line 1
+[08-Aug-2021 01:17:17 UTC] PHP Warning:  unlink(../../uploaded_files/): Is a directory in /home3/halkaazn/public_html/seller/control/product_ctrl.php on line 1
+[08-Aug-2021 01:18:00 UTC] PHP Warning:  unlink(../../uploaded_files/): Is a directory in /home3/halkaazn/public_html/seller/control/product_ctrl.php on line 1
+[08-Aug-2021 01:18:49 UTC] PHP Warning:  unlink(../../uploaded_files/): Is a directory in /home3/halkaazn/public_html/seller/control/product_ctrl.php on line 1
+[10-Aug-2021 10:06:44 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home3/halkaazn/public_html/seller/control/all_unv_products.php on line 1
+[10-Aug-2021 10:06:47 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home3/halkaazn/public_html/seller/control/all_unv_products.php on line 1
+[10-Aug-2021 10:06:47 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home3/halkaazn/public_html/seller/control/all_unv_products.php on line 1
+[10-Aug-2021 10:38:44 UTC] PHP Warning:  unlink(../../uploaded_files/): Is a directory in /home3/halkaazn/public_html/seller/control/product_ctrl.php on line 1
+[10-Aug-2021 10:39:01 UTC] PHP Warning:  unlink(../../uploaded_files/): Is a directory in /home3/halkaazn/public_html/seller/control/product_ctrl.php on line 1
+[10-Aug-2021 10:40:30 UTC] PHP Warning:  unlink(../../uploaded_files/): Is a directory in /home3/halkaazn/public_html/seller/control/product_ctrl.php on line 1
+[10-Aug-2021 10:42:45 UTC] PHP Warning:  unlink(../../uploaded_files/): Is a directory in /home3/halkaazn/public_html/seller/control/product_ctrl.php on line 1
+[10-Aug-2021 10:42:49 UTC] PHP Warning:  unlink(../../uploaded_files/): Is a directory in /home3/halkaazn/public_html/seller/control/product_ctrl.php on line 1
+[10-Aug-2021 10:43:07 UTC] PHP Warning:  unlink(../../uploaded_files/): Is a directory in /home3/halkaazn/public_html/seller/control/product_ctrl.php on line 1
+[10-Aug-2021 12:13:07 UTC] PHP Warning:  unlink(../../uploaded_files/): Is a directory in /home3/halkaazn/public_html/seller/control/product_ctrl.php on line 1
+[10-Aug-2021 12:15:41 UTC] PHP Warning:  unlink(../../uploaded_files/): Is a directory in /home3/halkaazn/public_html/seller/control/product_ctrl.php on line 1
+[10-Aug-2021 12:27:37 UTC] PHP Warning:  unlink(../../uploaded_files/): Is a directory in /home3/halkaazn/public_html/seller/control/product_ctrl.php on line 1
+[10-Aug-2021 12:27:44 UTC] PHP Warning:  unlink(../../uploaded_files/): Is a directory in /home3/halkaazn/public_html/seller/control/product_ctrl.php on line 1
+[10-Aug-2021 12:34:46 UTC] PHP Warning:  unlink(../../uploaded_files/): Is a directory in /home3/halkaazn/public_html/seller/control/product_ctrl.php on line 1
+[10-Aug-2021 14:20:26 UTC] PHP Warning:  unlink(../../uploaded_files/): Is a directory in /home3/halkaazn/public_html/seller/control/product_ctrl.php on line 9
+[13-Aug-2021 13:21:15 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[13-Aug-2021 15:57:11 UTC] PHP Warning:  unlink(../../uploaded_files/UNV_IMG60e798c2abbec4.5486510095.webp): No such file or directory in /home3/halkaazn/public_html/seller/control/delete_product.php on line 1
+[13-Aug-2021 15:57:11 UTC] PHP Warning:  unlink(../../uploaded_files/UNV_IMG60e798c2abd968.1996669370.webp): No such file or directory in /home3/halkaazn/public_html/seller/control/delete_product.php on line 1
+[13-Aug-2021 15:57:11 UTC] PHP Warning:  unlink(../../uploaded_files/UNV_IMG60e798c2abec62.4097456041.webp): No such file or directory in /home3/halkaazn/public_html/seller/control/delete_product.php on line 1
+[13-Aug-2021 15:57:11 UTC] PHP Warning:  unlink(../../uploaded_files/UNV_IMG60e798c2abfe20.3686251433.webp): No such file or directory in /home3/halkaazn/public_html/seller/control/delete_product.php on line 1
+[13-Aug-2021 15:57:11 UTC] PHP Warning:  unlink(../../uploaded_files/UNV_IMG60e798c2ac0f46.7449581967.webp): No such file or directory in /home3/halkaazn/public_html/seller/control/delete_product.php on line 1
+[13-Aug-2021 15:57:11 UTC] PHP Warning:  unlink(../../uploaded_files/UNV_IMG60e798c2ac2201.4011752136.webp): No such file or directory in /home3/halkaazn/public_html/seller/control/delete_product.php on line 1
+[13-Aug-2021 15:57:11 UTC] PHP Warning:  unlink(../../uploaded_files/UNV_IMG60e7963ac71495.5676640555.webp): No such file or directory in /home3/halkaazn/public_html/seller/control/delete_product.php on line 1
+[13-Aug-2021 15:57:11 UTC] PHP Warning:  unlink(../../uploaded_files/UNV_IMG60e7963ac874f2.1214718786.webp): No such file or directory in /home3/halkaazn/public_html/seller/control/delete_product.php on line 1
+[13-Aug-2021 15:57:11 UTC] PHP Warning:  unlink(../../uploaded_files/UNV_IMG60e7963ac88971.9720942681.webp): No such file or directory in /home3/halkaazn/public_html/seller/control/delete_product.php on line 1
+[13-Aug-2021 15:57:11 UTC] PHP Warning:  unlink(../../uploaded_files/UNV_IMG60e7963ac89cf6.2276295402.webp): No such file or directory in /home3/halkaazn/public_html/seller/control/delete_product.php on line 1
+[13-Aug-2021 15:57:11 UTC] PHP Warning:  unlink(../../uploaded_files/UNV_IMG60e7963ae97742.9814995609.webp): No such file or directory in /home3/halkaazn/public_html/seller/control/delete_product.php on line 1
+[13-Aug-2021 15:57:11 UTC] PHP Warning:  unlink(../../uploaded_files/UNV_IMG6110d55b5b06b1.6012434151.webp): No such file or directory in /home3/halkaazn/public_html/seller/control/delete_product.php on line 1
+[13-Aug-2021 15:57:11 UTC] PHP Warning:  unlink(../../uploaded_files/UNV_IMG6110d55b99c0c2.7620820908.webp): No such file or directory in /home3/halkaazn/public_html/seller/control/delete_product.php on line 1
+[13-Aug-2021 15:57:11 UTC] PHP Warning:  unlink(../../uploaded_files/UNV_IMG6110d55bbf1146.1683846184.webp): No such file or directory in /home3/halkaazn/public_html/seller/control/delete_product.php on line 1
+[13-Aug-2021 15:57:11 UTC] PHP Warning:  unlink(../../uploaded_files/UNV_IMG6110d55bc6d4f6.0612505874.webp): No such file or directory in /home3/halkaazn/public_html/seller/control/delete_product.php on line 1
+[13-Aug-2021 15:57:11 UTC] PHP Warning:  unlink(../../uploaded_files/UNV_IMG6110d55bd2fda1.7091043447.webp): No such file or directory in /home3/halkaazn/public_html/seller/control/delete_product.php on line 1
+[13-Aug-2021 15:57:11 UTC] PHP Warning:  unlink(../../uploaded_files/UNV_IMG60e78f3629e6c8.4233435334.webp): No such file or directory in /home3/halkaazn/public_html/seller/control/delete_product.php on line 1
+[13-Aug-2021 15:57:11 UTC] PHP Warning:  unlink(../../uploaded_files/UNV_IMG60e78f362a01d7.2465332807.webp): No such file or directory in /home3/halkaazn/public_html/seller/control/delete_product.php on line 1
+[13-Aug-2021 15:57:11 UTC] PHP Warning:  unlink(../../uploaded_files/UNV_IMG60e78f362a12b7.2720524508.webp): No such file or directory in /home3/halkaazn/public_html/seller/control/delete_product.php on line 1
+[13-Aug-2021 15:57:11 UTC] PHP Warning:  unlink(../../uploaded_files/UNV_IMG60e78f362a2449.0885159044.webp): No such file or directory in /home3/halkaazn/public_html/seller/control/delete_product.php on line 1
+[13-Aug-2021 15:57:11 UTC] PHP Warning:  unlink(../../uploaded_files/UNV_IMG60e78f362a3966.9407425978.webp): No such file or directory in /home3/halkaazn/public_html/seller/control/delete_product.php on line 1
+[13-Aug-2021 15:57:11 UTC] PHP Warning:  unlink(../../uploaded_files/UNV_IMG60e78f362a4b98.3852357862.webp): No such file or directory in /home3/halkaazn/public_html/seller/control/delete_product.php on line 1
+[13-Aug-2021 15:57:11 UTC] PHP Warning:  unlink(../../uploaded_files/UNV_IMG60e78f362a5d59.6303041689.webp): No such file or directory in /home3/halkaazn/public_html/seller/control/delete_product.php on line 1
+[13-Aug-2021 15:58:18 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[13-Aug-2021 15:58:18 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[13-Aug-2021 15:58:18 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[13-Aug-2021 15:58:18 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[13-Aug-2021 16:55:29 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[13-Aug-2021 16:55:29 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[13-Aug-2021 16:55:29 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[13-Aug-2021 16:55:29 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[13-Aug-2021 16:55:29 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[13-Aug-2021 16:55:29 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[13-Aug-2021 16:55:29 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[13-Aug-2021 16:55:29 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[13-Aug-2021 16:55:29 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[13-Aug-2021 16:55:29 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[13-Aug-2021 16:55:29 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[13-Aug-2021 16:55:29 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[13-Aug-2021 16:55:29 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[13-Aug-2021 16:55:29 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[13-Aug-2021 16:55:29 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[13-Aug-2021 16:55:29 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[14-Aug-2021 03:50:19 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home3/halkaazn/public_html/seller/control/search_engine.php on line 3
+[14-Aug-2021 03:50:20 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home3/halkaazn/public_html/seller/control/search_engine.php on line 3
+[14-Aug-2021 03:50:27 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home3/halkaazn/public_html/seller/control/search_engine.php on line 3
+[14-Aug-2021 03:50:27 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home3/halkaazn/public_html/seller/control/search_engine.php on line 3
+[14-Aug-2021 05:19:48 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home3/halkaazn/public_html/seller/control/search_engine.php on line 3
+[14-Aug-2021 05:19:48 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home3/halkaazn/public_html/seller/control/search_engine.php on line 3
+[14-Aug-2021 05:19:54 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home3/halkaazn/public_html/seller/control/search_engine.php on line 3
+[14-Aug-2021 05:19:55 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home3/halkaazn/public_html/seller/control/search_engine.php on line 3
+[14-Aug-2021 05:19:59 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home3/halkaazn/public_html/seller/control/search_engine.php on line 3
+[14-Aug-2021 05:19:59 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home3/halkaazn/public_html/seller/control/search_engine.php on line 3
+[14-Aug-2021 05:20:08 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home3/halkaazn/public_html/seller/control/search_engine.php on line 3
+[14-Aug-2021 05:20:08 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home3/halkaazn/public_html/seller/control/search_engine.php on line 3
+[14-Aug-2021 05:20:49 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home3/halkaazn/public_html/seller/control/search_engine.php on line 3
+[14-Aug-2021 05:20:49 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home3/halkaazn/public_html/seller/control/search_engine.php on line 3
+[14-Aug-2021 06:49:56 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home3/halkaazn/public_html/seller/control/search_engine.php on line 5
+[14-Aug-2021 06:49:59 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home3/halkaazn/public_html/seller/control/search_engine.php on line 5
+[14-Aug-2021 06:49:59 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home3/halkaazn/public_html/seller/control/search_engine.php on line 5
+[14-Aug-2021 06:50:00 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home3/halkaazn/public_html/seller/control/search_engine.php on line 5
+[14-Aug-2021 06:50:01 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home3/halkaazn/public_html/seller/control/search_engine.php on line 5
+[14-Aug-2021 06:50:02 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home3/halkaazn/public_html/seller/control/search_engine.php on line 5
+[14-Aug-2021 06:50:03 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home3/halkaazn/public_html/seller/control/search_engine.php on line 5
+[14-Aug-2021 06:50:12 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home3/halkaazn/public_html/seller/control/search_engine.php on line 5
+[14-Aug-2021 07:20:27 UTC] PHP Warning:  unlink(../../uploaded_files/): Is a directory in /home3/halkaazn/public_html/seller/control/product_ctrl.php on line 8
+[14-Aug-2021 08:17:13 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home3/halkaazn/public_html/seller/control/search_engine.php on line 7
+[14-Aug-2021 08:17:24 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home3/halkaazn/public_html/seller/control/search_engine.php on line 7
+[14-Aug-2021 08:19:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function ehco() in /home3/halkaazn/public_html/seller/control/search_engine.php:10
+Stack trace:
+#0 {main}
+  thrown in /home3/halkaazn/public_html/seller/control/search_engine.php on line 10
+[14-Aug-2021 08:19:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function ehco() in /home3/halkaazn/public_html/seller/control/search_engine.php:10
+Stack trace:
+#0 {main}
+  thrown in /home3/halkaazn/public_html/seller/control/search_engine.php on line 10
+[14-Aug-2021 08:20:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function ehco() in /home3/halkaazn/public_html/seller/control/search_engine.php:10
+Stack trace:
+#0 {main}
+  thrown in /home3/halkaazn/public_html/seller/control/search_engine.php on line 10
+[14-Aug-2021 08:20:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function ehco() in /home3/halkaazn/public_html/seller/control/search_engine.php:10
+Stack trace:
+#0 {main}
+  thrown in /home3/halkaazn/public_html/seller/control/search_engine.php on line 10
+[14-Aug-2021 08:20:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function ehco() in /home3/halkaazn/public_html/seller/control/search_engine.php:10
+Stack trace:
+#0 {main}
+  thrown in /home3/halkaazn/public_html/seller/control/search_engine.php on line 10
+[14-Aug-2021 08:21:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function ehco() in /home3/halkaazn/public_html/seller/control/search_engine.php:10
+Stack trace:
+#0 {main}
+  thrown in /home3/halkaazn/public_html/seller/control/search_engine.php on line 10
+[14-Aug-2021 08:21:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function ehco() in /home3/halkaazn/public_html/seller/control/search_engine.php:10
+Stack trace:
+#0 {main}
+  thrown in /home3/halkaazn/public_html/seller/control/search_engine.php on line 10
+[14-Aug-2021 08:21:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function ehco() in /home3/halkaazn/public_html/seller/control/search_engine.php:10
+Stack trace:
+#0 {main}
+  thrown in /home3/halkaazn/public_html/seller/control/search_engine.php on line 10
+[14-Aug-2021 08:21:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function ehco() in /home3/halkaazn/public_html/seller/control/search_engine.php:10
+Stack trace:
+#0 {main}
+  thrown in /home3/halkaazn/public_html/seller/control/search_engine.php on line 10
+[14-Aug-2021 08:21:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function ehco() in /home3/halkaazn/public_html/seller/control/search_engine.php:10
+Stack trace:
+#0 {main}
+  thrown in /home3/halkaazn/public_html/seller/control/search_engine.php on line 10
+[14-Aug-2021 08:21:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function ehco() in /home3/halkaazn/public_html/seller/control/search_engine.php:10
+Stack trace:
+#0 {main}
+  thrown in /home3/halkaazn/public_html/seller/control/search_engine.php on line 10
+[14-Aug-2021 08:21:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function ehco() in /home3/halkaazn/public_html/seller/control/search_engine.php:10
+Stack trace:
+#0 {main}
+  thrown in /home3/halkaazn/public_html/seller/control/search_engine.php on line 10
+[16-Aug-2021 19:24:31 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home3/halkaazn/public_html/seller/control/product_ctrl.php on line 1
+[16-Aug-2021 20:13:18 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home3/halkaazn/public_html/seller/control/product_ctrl.php on line 1
+[16-Aug-2021 20:41:52 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home3/halkaazn/public_html/seller/control/product_ctrl.php on line 1
+[16-Aug-2021 20:48:00 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home3/halkaazn/public_html/seller/control/product_ctrl.php on line 1
+[16-Aug-2021 20:52:28 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home3/halkaazn/public_html/seller/control/product_ctrl.php on line 1
+[16-Aug-2021 20:56:00 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home3/halkaazn/public_html/seller/control/product_ctrl.php on line 1
+[16-Aug-2021 20:58:23 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home3/halkaazn/public_html/seller/control/product_ctrl.php on line 1
+[16-Aug-2021 21:01:55 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home3/halkaazn/public_html/seller/control/product_ctrl.php on line 1
+[16-Aug-2021 21:02:58 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home3/halkaazn/public_html/seller/control/product_ctrl.php on line 1
+[16-Aug-2021 21:04:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home3/halkaazn/public_html/seller/control/product_ctrl.php on line 1
+[16-Aug-2021 21:05:26 UTC] PHP Warning:  unlink(../../uploaded_files/): Is a directory in /home3/halkaazn/public_html/seller/control/product_ctrl.php on line 8
+[16-Aug-2021 21:07:22 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home3/halkaazn/public_html/seller/control/product_ctrl.php on line 1
+[17-Aug-2021 17:29:47 UTC] PHP Warning:  unlink(../../uploaded_files/): Is a directory in /home3/halkaazn/public_html/seller/control/product_ctrl.php on line 8
+[18-Aug-2021 12:36:45 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[18-Aug-2021 12:36:45 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[18-Aug-2021 12:36:45 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[18-Aug-2021 12:36:45 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[18-Aug-2021 12:36:45 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[18-Aug-2021 13:24:26 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[18-Aug-2021 13:24:26 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[18-Aug-2021 13:24:26 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[18-Aug-2021 13:24:26 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[18-Aug-2021 13:24:26 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[18-Aug-2021 13:24:26 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[18-Aug-2021 13:24:26 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[18-Aug-2021 13:24:26 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[18-Aug-2021 13:24:26 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[18-Aug-2021 13:24:26 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[18-Aug-2021 13:24:26 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[18-Aug-2021 13:24:26 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[18-Aug-2021 13:24:26 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[18-Aug-2021 13:24:26 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[18-Aug-2021 13:24:26 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[18-Aug-2021 13:24:26 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[18-Aug-2021 13:24:26 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[18-Aug-2021 13:24:26 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[18-Aug-2021 13:24:26 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[18-Aug-2021 13:24:26 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[18-Aug-2021 13:24:26 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[18-Aug-2021 13:24:26 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[18-Aug-2021 13:24:26 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[18-Aug-2021 13:24:26 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[18-Aug-2021 13:24:26 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[18-Aug-2021 13:24:26 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[18-Aug-2021 13:24:26 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[18-Aug-2021 13:24:26 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[19-Aug-2021 05:43:46 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[19-Aug-2021 05:43:46 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[19-Aug-2021 05:43:46 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[19-Aug-2021 05:43:46 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[19-Aug-2021 05:43:46 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[19-Aug-2021 12:37:22 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[19-Aug-2021 12:37:22 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[19-Aug-2021 12:37:22 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[19-Aug-2021 12:37:22 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[19-Aug-2021 12:37:22 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[19-Aug-2021 12:37:22 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[19-Aug-2021 12:37:22 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[19-Aug-2021 12:37:22 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[19-Aug-2021 12:41:53 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[19-Aug-2021 12:41:53 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[19-Aug-2021 12:41:53 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[19-Aug-2021 12:41:53 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[19-Aug-2021 12:41:53 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[19-Aug-2021 12:41:53 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[19-Aug-2021 12:41:53 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[19-Aug-2021 12:41:53 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[19-Aug-2021 12:44:57 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[19-Aug-2021 12:44:57 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[19-Aug-2021 12:44:57 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[19-Aug-2021 12:44:57 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[19-Aug-2021 12:44:57 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[19-Aug-2021 12:44:57 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[19-Aug-2021 12:44:57 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[19-Aug-2021 12:44:57 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[19-Aug-2021 12:44:57 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[19-Aug-2021 12:44:57 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[19-Aug-2021 12:44:57 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[19-Aug-2021 12:44:57 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[19-Aug-2021 12:44:57 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[19-Aug-2021 12:44:57 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[19-Aug-2021 12:44:57 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[19-Aug-2021 12:44:57 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[19-Aug-2021 12:44:57 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[19-Aug-2021 12:44:57 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[19-Aug-2021 12:44:57 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[19-Aug-2021 12:44:57 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[19-Aug-2021 12:44:57 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[19-Aug-2021 12:44:57 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[19-Aug-2021 12:44:57 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[19-Aug-2021 12:44:57 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[19-Aug-2021 12:44:57 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[19-Aug-2021 12:44:57 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[19-Aug-2021 12:44:57 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[19-Aug-2021 12:44:57 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[19-Aug-2021 12:44:57 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[19-Aug-2021 12:44:57 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[19-Aug-2021 12:44:57 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[22-Aug-2021 14:37:31 UTC] PHP Warning:  unlink(../../uploaded_files/): Is a directory in /home3/halkaazn/public_html/seller/control/client_account_ctrl.php on line 2
+[03-Sep-2021 06:55:59 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[03-Sep-2021 06:56:19 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[03-Sep-2021 06:57:05 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[03-Sep-2021 10:10:50 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[09-Sep-2021 04:04:24 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[09-Sep-2021 04:04:24 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[09-Sep-2021 04:04:24 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[09-Sep-2021 04:04:24 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[09-Sep-2021 04:04:24 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[09-Sep-2021 04:04:24 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[09-Sep-2021 04:04:24 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[09-Sep-2021 04:04:24 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[09-Sep-2021 04:04:24 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[09-Sep-2021 04:04:24 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[09-Sep-2021 04:04:24 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[09-Sep-2021 04:16:23 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[09-Sep-2021 04:16:23 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[09-Sep-2021 04:16:23 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[09-Sep-2021 04:16:23 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[09-Sep-2021 04:16:23 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[09-Sep-2021 04:16:23 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[09-Sep-2021 04:16:23 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[09-Sep-2021 04:16:23 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[09-Sep-2021 04:16:23 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[09-Sep-2021 04:16:23 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[09-Sep-2021 04:16:23 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[09-Sep-2021 04:16:23 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[10-Sep-2021 12:59:36 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home3/halkaazn/public_html/seller/control/pending_orders.php on line 1
+[10-Sep-2021 12:59:37 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home3/halkaazn/public_html/seller/control/pending_orders.php on line 1
+[10-Sep-2021 12:59:37 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home3/halkaazn/public_html/seller/control/pending_orders.php on line 1
+[13-Sep-2021 06:23:00 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[13-Sep-2021 06:23:00 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[14-Sep-2021 06:30:34 UTC] PHP Warning:  unlink(../../uploaded_files/): Is a directory in /home3/halkaazn/public_html/seller/control/product_ctrl.php on line 8
+[14-Sep-2021 06:33:08 UTC] PHP Warning:  unlink(../../uploaded_files/): Is a directory in /home3/halkaazn/public_html/seller/control/product_ctrl.php on line 8
+[15-Sep-2021 12:06:28 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[16-Sep-2021 04:55:15 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[16-Sep-2021 04:55:15 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[16-Sep-2021 04:55:16 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[16-Sep-2021 04:55:16 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[16-Sep-2021 04:55:16 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[16-Sep-2021 04:55:16 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[16-Sep-2021 04:55:16 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[16-Sep-2021 04:55:16 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[16-Sep-2021 04:55:16 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[16-Sep-2021 04:55:16 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[16-Sep-2021 04:55:16 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[16-Sep-2021 04:55:16 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[16-Sep-2021 04:55:16 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[16-Sep-2021 04:55:16 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[16-Sep-2021 04:55:16 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[16-Sep-2021 04:55:16 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[16-Sep-2021 04:55:16 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[16-Sep-2021 04:55:16 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[16-Sep-2021 04:55:16 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[16-Sep-2021 04:55:16 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[16-Sep-2021 04:55:16 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[16-Sep-2021 04:55:16 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[16-Sep-2021 04:55:16 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[16-Sep-2021 04:55:16 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[16-Sep-2021 04:55:16 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[16-Sep-2021 04:55:16 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[16-Sep-2021 04:55:16 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[16-Sep-2021 04:55:16 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[16-Sep-2021 04:55:16 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[16-Sep-2021 04:55:16 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[16-Sep-2021 04:55:16 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[16-Sep-2021 04:55:16 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[16-Sep-2021 04:55:16 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[16-Sep-2021 04:55:16 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[16-Sep-2021 04:55:16 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[16-Sep-2021 04:55:16 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[16-Sep-2021 04:55:16 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[16-Sep-2021 04:55:16 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[16-Sep-2021 04:55:16 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[16-Sep-2021 04:55:16 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[16-Sep-2021 04:55:16 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[16-Sep-2021 04:55:16 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[16-Sep-2021 04:55:16 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[16-Sep-2021 04:55:16 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[16-Sep-2021 04:55:16 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[16-Sep-2021 04:55:16 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[16-Sep-2021 04:55:16 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[16-Sep-2021 04:55:16 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[16-Sep-2021 04:55:16 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[16-Sep-2021 04:55:16 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[16-Sep-2021 04:55:16 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[16-Sep-2021 04:55:16 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[16-Sep-2021 04:55:16 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[16-Sep-2021 04:55:16 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[16-Sep-2021 04:55:16 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[16-Sep-2021 04:55:16 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[17-Sep-2021 14:39:15 UTC] PHP Warning:  unlink(../../uploaded_files/): Is a directory in /home3/halkaazn/public_html/seller/control/client_account_ctrl.php on line 2
+[17-Sep-2021 14:41:49 UTC] PHP Warning:  unlink(../../uploaded_files/UNV_IMG6117fe4dab63e1.2703278961.webp): No such file or directory in /home3/halkaazn/public_html/seller/control/delete_product.php on line 1
+[17-Sep-2021 14:41:49 UTC] PHP Warning:  unlink(../../uploaded_files/UNV_IMG6117fe4dcfece3.5198895240.webp): No such file or directory in /home3/halkaazn/public_html/seller/control/delete_product.php on line 1
+[17-Sep-2021 14:41:49 UTC] PHP Warning:  unlink(../../uploaded_files/UNV_IMG6117fe4df1d9c1.1933106785.webp): No such file or directory in /home3/halkaazn/public_html/seller/control/delete_product.php on line 1
+[17-Sep-2021 14:41:49 UTC] PHP Warning:  unlink(../../uploaded_files/UNV_IMG6117fe4e2b7b01.8197283814.webp): No such file or directory in /home3/halkaazn/public_html/seller/control/delete_product.php on line 1
+[17-Sep-2021 14:41:49 UTC] PHP Warning:  unlink(../../uploaded_files/UNV_IMG6117fe4e3f0695.6056260454.webp): No such file or directory in /home3/halkaazn/public_html/seller/control/delete_product.php on line 1
+[17-Sep-2021 14:42:15 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[17-Sep-2021 18:28:56 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[17-Sep-2021 18:28:56 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[17-Sep-2021 18:28:56 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[17-Sep-2021 18:28:56 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[17-Sep-2021 18:28:56 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[17-Sep-2021 18:31:18 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[17-Sep-2021 18:31:18 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[17-Sep-2021 18:31:18 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[17-Sep-2021 18:31:18 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[17-Sep-2021 18:31:18 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[17-Sep-2021 18:31:18 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[17-Sep-2021 18:31:18 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[17-Sep-2021 18:31:18 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[17-Sep-2021 18:31:18 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[17-Sep-2021 18:31:18 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[17-Sep-2021 18:31:18 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[17-Sep-2021 18:31:18 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[17-Sep-2021 18:31:18 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[17-Sep-2021 18:31:18 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[17-Sep-2021 18:31:18 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[17-Sep-2021 18:31:18 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[17-Sep-2021 18:31:18 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[17-Sep-2021 18:31:18 UTC] PHP Warning:  copy(): The first argument to copy() function cannot be a directory in /home3/halkaazn/public_html/seller/control/add_unv_product.php on line 3
+[19-Sep-2021 16:52:11 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home3/halkaazn/public_html/seller/control/customer_order.php on line 1

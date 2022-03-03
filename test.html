@@ -1,0 +1,205 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      .toggle-menu-btn {
+        background-color: aqua;
+        font-size: large;
+        font-weight: bolder;
+        border-radius: 50%;
+        border: none;
+        padding: 1%;
+        width: 20px;
+        height: 20px;
+        /* position: fixed;
+        bottom: 20px;
+        right: 20px; */
+      }
+      .menu-cntnr {
+        background-color: rgb(61, 61, 61);
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+        width: 96vw;
+        height: 200px;
+        /* margin-left: 2vw; */
+      }
+      .menu-btn {
+        width: 100%;
+        padding: 5%;
+        text-align: center;
+      }
+      #menu-cntnr {
+        width: 20px;
+        height: 20px;
+        overflow: hidden;
+        margin-left: 2vw;
+        border-radius: 10px;
+        /* position: absolute;
+        right: 0px;
+        bottom: 0px; */
+      }
+      #menu-cntnr.animate-in-menu-cntnr {
+        /* visibility: visible; */
+        -webkit-animation: animation_in 0.5s;
+        animation: animation_in 0.5s;
+        width: 96vw;
+        height: 200px;
+      }
+      #menu-cntnr.animate-out-menu-cntnr {
+        /* visibility: visible; */
+        -webkit-animation: animation_out 0.5s;
+        animation: animation_out 0.5s;
+        width: 20px;
+        height: 20px;
+      }
+
+      @-webkit-keyframes animation_in {
+        from {
+          width: 20px;
+          height: 20px;
+        }
+        to {
+          width: 96vw;
+          height: 200px;
+        }
+      }
+
+      @keyframes animation_in {
+        from {
+          width: 20px;
+          height: 20px;
+        }
+        to {
+          width: 96vw;
+          height: 200px;
+        }
+      }
+
+      @-webkit-keyframes animation_out {
+        from {
+          width: 96vw;
+          height: 200px;
+        }
+        to {
+          width: 20px;
+          height: 20px;
+        }
+      }
+
+      @keyframes animation_out {
+        from {
+          width: 96vw;
+          height: 200px;
+        }
+        to {
+          width: 20px;
+          height: 20px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="menu-cntnr" class="">
+      <div class="menu-cntnr">
+        <button class="toggle-menu-btn">+</button>
+        <div class="menu-btn">😂</div>
+        <div class="menu-btn">😉</div>
+        <div class="menu-btn">🥰</div>
+        <div class="menu-btn">🙂</div>
+        <div class="menu-btn">😜</div>
+        <div class="menu-btn">😘</div>
+        <div class="menu-btn">😜</div>
+        <div class="menu-btn">🤩</div>
+        <div class="menu-btn">🤩</div>
+      </div>
+    </div>
+    <script>
+      document.querySelector("button").addEventListener("click", () => {
+        if (
+          document
+            .querySelector("#menu-cntnr")
+            .classList.contains("animate-in-menu-cntnr")
+        ) {
+          // document
+          //   .querySelector("#menu-cntnr")
+          //   .classList.add("animate-out-menu-cntnr");
+          document
+            .querySelector("#menu-cntnr")
+            .classList.replace(
+              "animate-in-menu-cntnr",
+              "animate-out-menu-cntnr"
+            ); //("animate-in-menu-cntnr");
+        } else {
+          document
+            .querySelector("#menu-cntnr")
+            .classList.add("animate-in-menu-cntnr");
+          document
+            .querySelector("#menu-cntnr")
+            .classList.remove("animate-out-menu-cntnr");
+        }
+      });
+    </script>
+  </body>
+</html> -->
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+
+
+  <div class='l6-p-c-cart-btn' data-add_item='34:546'><span class='del_cart_item_btn'
+      data-cart_str='31:546'>–</span><span>1</span><span class='quicki_add_to_cart-btn' data-add_item='31:546'>+</span>
+  </div>
+
+  <script>
+    var status_var = 1;
+    function chase_status(params) {
+      if (document.querySelector("._24-Ff").children[1]) {
+        if (Notification.permission == "granted" && status_var == 1) {
+          const notify = new Notification(
+            `She came ONLINE...😱`,
+            {
+              body: "Message HER",
+              icon: "",
+              vibrate: [100, 50, 100],
+              data: {
+                dateOfArrival: Date.now(),
+                primaryKey: 1,
+              },
+              requireInteraction: true,
+            }
+          );
+          notify.addEventListener("click", function () {
+            window.open();
+          });
+          status_var = 0;
+        }
+      } else {
+        status_var = 1;
+      }
+    }
+    setInterval(chase_status, 1000);
+  </script>
+</body>
+
+</html>

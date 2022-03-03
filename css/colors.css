@@ -1,0 +1,28 @@
+:root {
+  --header-background: #ffffff00;
+  --search-field-background: #ffffff;
+  --menu-btn-background: #ffffff;
+  --body-background: #ffffff;
+  --body-text-color:#001118;
+  --section-name-color: #001118;
+  --overview_container-border: #4e4e4e;
+  --overview_container-background: #d7d9fb;
+  --overview-img_container-background: #00000000;
+  --overview-details-color: #001118;
+  --overview-btn-1-background: #ff8800;
+  --overview-btn-2-background: #00ff6a;
+  --profile-form-background: #ffffff;
+  --profile-form-text-color:#001118;
+  --input-field-bottom-border-color: #00598d;
+  --input-field-background: #baf1ef;
+  --input-field-color: #000e20;
+  --card-background:#ffffff00;
+  --card-text-color:#001f1c;
+  --order-modal-label:#00071d;
+  --order-modal-detail:#020202;
+  --footer-background: rgb(0, 26, 32);
+  --footertext-color: rgb(255, 0, 0);
+  --copyright-text: rgb(255, 255, 255);
+  --contact_us-color: rgb(255, 255, 255);
+  --about_us-color: rgb(255, 255, 255);
+};

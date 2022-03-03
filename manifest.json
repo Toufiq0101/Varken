@@ -1,0 +1,35 @@
+{
+    "name": "Halka",
+    "short_name": "Halka",
+    "start_url": "/",
+    "display": "standalone",
+    "theme_color": "#001923",
+    "orientation": "portrait-primary",
+    "icons": [
+        {
+            "src": "./web_files/icon_72.png",
+            "type": "image/png",
+            "sizes": "72X72"
+        },
+        {
+            "src": "./web_files/icon.png",
+            "type": "image/png",
+            "sizes": "144X144"
+        },
+        {
+            "src": "./web_files/icon-sqr.png",
+            "type": "image/png",
+            "sizes": "144X144"
+        },
+        {
+            "src": "./web_files/icon_184.png",
+            "type": "image/png",
+            "sizes": "184X184"
+        },
+        {
+            "src": "./web_files/icon_512.png",
+            "type": "image/png",
+            "sizes": "512X512"
+        }
+    ]
+}

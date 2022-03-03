@@ -1,0 +1,127 @@
+[17-Aug-2021 14:40:31 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/halkaazn/public_html/delivery/database_connection.php on line 12
+[17-Aug-2021 14:40:31 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/halkaazn/public_html/delivery/database_connection.php on line 13
+[17-Aug-2021 14:40:31 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/halkaazn/public_html/delivery/database_connection.php on line 12
+[17-Aug-2021 14:40:31 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/halkaazn/public_html/delivery/database_connection.php on line 13
+[17-Aug-2021 14:40:31 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/halkaazn/public_html/delivery/database_connection.php on line 14
+[17-Aug-2021 14:40:31 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/halkaazn/public_html/delivery/database_connection.php on line 15
+[17-Aug-2021 14:40:31 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/halkaazn/public_html/delivery/database_connection.php on line 14
+[17-Aug-2021 14:40:31 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/halkaazn/public_html/delivery/database_connection.php on line 15
+[17-Aug-2021 14:40:32 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home3/halkaazn/public_html/delivery/user.php on line 9
+[17-Aug-2021 14:40:35 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/halkaazn/public_html/delivery/database_connection.php on line 12
+[17-Aug-2021 14:40:35 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/halkaazn/public_html/delivery/database_connection.php on line 13
+[17-Aug-2021 14:40:35 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/halkaazn/public_html/delivery/database_connection.php on line 14
+[17-Aug-2021 14:40:35 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/halkaazn/public_html/delivery/database_connection.php on line 15
+[17-Aug-2021 14:40:35 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home3/halkaazn/public_html/delivery/d_account_ctrl.php on line 85
+[17-Aug-2021 14:40:35 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home3/halkaazn/public_html/delivery/d_account_ctrl.php on line 87
+[17-Aug-2021 14:40:40 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/halkaazn/public_html/delivery/database_connection.php on line 12
+[17-Aug-2021 14:40:40 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/halkaazn/public_html/delivery/database_connection.php on line 13
+[17-Aug-2021 14:40:40 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/halkaazn/public_html/delivery/database_connection.php on line 14
+[17-Aug-2021 14:40:40 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/halkaazn/public_html/delivery/database_connection.php on line 15
+[17-Aug-2021 14:40:40 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home3/halkaazn/public_html/delivery/d_account_ctrl.php on line 85
+[17-Aug-2021 14:40:40 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home3/halkaazn/public_html/delivery/d_account_ctrl.php on line 87
+[17-Aug-2021 14:40:54 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/halkaazn/public_html/delivery/database_connection.php on line 12
+[17-Aug-2021 14:40:54 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/halkaazn/public_html/delivery/database_connection.php on line 13
+[17-Aug-2021 14:40:54 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/halkaazn/public_html/delivery/database_connection.php on line 14
+[17-Aug-2021 14:40:54 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/halkaazn/public_html/delivery/database_connection.php on line 15
+[17-Aug-2021 14:40:54 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/halkaazn/public_html/delivery/database_connection.php on line 12
+[17-Aug-2021 14:40:54 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/halkaazn/public_html/delivery/database_connection.php on line 13
+[17-Aug-2021 14:40:54 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/halkaazn/public_html/delivery/database_connection.php on line 14
+[17-Aug-2021 14:40:54 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/halkaazn/public_html/delivery/database_connection.php on line 15
+[17-Aug-2021 14:40:56 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home3/halkaazn/public_html/delivery/user.php on line 9
+[17-Aug-2021 14:41:00 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/halkaazn/public_html/delivery/database_connection.php on line 12
+[17-Aug-2021 14:41:00 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/halkaazn/public_html/delivery/database_connection.php on line 13
+[17-Aug-2021 14:41:00 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/halkaazn/public_html/delivery/database_connection.php on line 14
+[17-Aug-2021 14:41:00 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/halkaazn/public_html/delivery/database_connection.php on line 15
+[17-Aug-2021 14:41:00 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home3/halkaazn/public_html/delivery/d_account_ctrl.php on line 85
+[17-Aug-2021 14:41:00 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home3/halkaazn/public_html/delivery/d_account_ctrl.php on line 87
+[17-Aug-2021 14:42:25 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/halkaazn/public_html/delivery/database_connection.php on line 12
+[17-Aug-2021 14:42:25 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/halkaazn/public_html/delivery/database_connection.php on line 13
+[17-Aug-2021 14:42:25 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/halkaazn/public_html/delivery/database_connection.php on line 14
+[17-Aug-2021 14:42:25 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/halkaazn/public_html/delivery/database_connection.php on line 15
+[17-Aug-2021 14:42:25 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home3/halkaazn/public_html/delivery/d_account_ctrl.php on line 8
+[17-Aug-2021 14:42:49 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/halkaazn/public_html/delivery/database_connection.php on line 12
+[17-Aug-2021 14:42:49 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/halkaazn/public_html/delivery/database_connection.php on line 13
+[17-Aug-2021 14:42:49 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/halkaazn/public_html/delivery/database_connection.php on line 14
+[17-Aug-2021 14:42:49 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/halkaazn/public_html/delivery/database_connection.php on line 15
+[17-Aug-2021 14:42:49 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home3/halkaazn/public_html/delivery/d_account_ctrl.php on line 85
+[17-Aug-2021 14:42:49 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home3/halkaazn/public_html/delivery/d_account_ctrl.php on line 87
+[17-Aug-2021 14:42:55 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/halkaazn/public_html/delivery/database_connection.php on line 12
+[17-Aug-2021 14:42:55 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/halkaazn/public_html/delivery/database_connection.php on line 13
+[17-Aug-2021 14:42:55 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/halkaazn/public_html/delivery/database_connection.php on line 14
+[17-Aug-2021 14:42:55 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/halkaazn/public_html/delivery/database_connection.php on line 15
+[17-Aug-2021 14:42:55 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home3/halkaazn/public_html/delivery/d_account_ctrl.php on line 85
+[17-Aug-2021 14:42:55 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home3/halkaazn/public_html/delivery/d_account_ctrl.php on line 87
+[17-Aug-2021 14:43:05 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/halkaazn/public_html/delivery/database_connection.php on line 12
+[17-Aug-2021 14:43:05 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/halkaazn/public_html/delivery/database_connection.php on line 13
+[17-Aug-2021 14:43:05 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/halkaazn/public_html/delivery/database_connection.php on line 14
+[17-Aug-2021 14:43:05 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/halkaazn/public_html/delivery/database_connection.php on line 15
+[17-Aug-2021 14:43:05 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home3/halkaazn/public_html/delivery/d_account_ctrl.php on line 85
+[17-Aug-2021 14:43:05 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home3/halkaazn/public_html/delivery/d_account_ctrl.php on line 87
+[17-Aug-2021 14:43:11 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/halkaazn/public_html/delivery/database_connection.php on line 12
+[17-Aug-2021 14:43:11 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/halkaazn/public_html/delivery/database_connection.php on line 13
+[17-Aug-2021 14:43:11 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/halkaazn/public_html/delivery/database_connection.php on line 14
+[17-Aug-2021 14:43:11 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/halkaazn/public_html/delivery/database_connection.php on line 15
+[17-Aug-2021 14:43:11 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home3/halkaazn/public_html/delivery/d_account_ctrl.php on line 85
+[17-Aug-2021 14:43:11 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home3/halkaazn/public_html/delivery/d_account_ctrl.php on line 87
+[17-Aug-2021 14:44:18 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/halkaazn/public_html/delivery/database_connection.php on line 12
+[17-Aug-2021 14:44:18 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/halkaazn/public_html/delivery/database_connection.php on line 13
+[17-Aug-2021 14:44:18 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/halkaazn/public_html/delivery/database_connection.php on line 14
+[17-Aug-2021 14:44:18 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/halkaazn/public_html/delivery/database_connection.php on line 15
+[17-Aug-2021 14:44:18 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/halkaazn/public_html/delivery/database_connection.php on line 12
+[17-Aug-2021 14:44:18 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/halkaazn/public_html/delivery/database_connection.php on line 13
+[17-Aug-2021 14:44:18 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/halkaazn/public_html/delivery/database_connection.php on line 14
+[17-Aug-2021 14:44:18 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/halkaazn/public_html/delivery/database_connection.php on line 15
+[17-Aug-2021 14:44:19 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home3/halkaazn/public_html/delivery/user.php on line 9
+[17-Aug-2021 14:44:22 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/halkaazn/public_html/delivery/database_connection.php on line 12
+[17-Aug-2021 14:44:22 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/halkaazn/public_html/delivery/database_connection.php on line 13
+[17-Aug-2021 14:44:22 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/halkaazn/public_html/delivery/database_connection.php on line 14
+[17-Aug-2021 14:44:22 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/halkaazn/public_html/delivery/database_connection.php on line 15
+[17-Aug-2021 14:44:22 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home3/halkaazn/public_html/delivery/d_account_ctrl.php on line 85
+[17-Aug-2021 14:44:22 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home3/halkaazn/public_html/delivery/d_account_ctrl.php on line 87
+[17-Aug-2021 14:45:50 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/halkaazn/public_html/delivery/database_connection.php on line 12
+[17-Aug-2021 14:45:50 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/halkaazn/public_html/delivery/database_connection.php on line 13
+[17-Aug-2021 14:45:50 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/halkaazn/public_html/delivery/database_connection.php on line 14
+[17-Aug-2021 14:45:50 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/halkaazn/public_html/delivery/database_connection.php on line 15
+[17-Aug-2021 14:45:50 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home3/halkaazn/public_html/delivery/d_account_ctrl.php on line 85
+[17-Aug-2021 14:45:50 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home3/halkaazn/public_html/delivery/d_account_ctrl.php on line 87
+[17-Aug-2021 14:45:54 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/halkaazn/public_html/delivery/database_connection.php on line 12
+[17-Aug-2021 14:45:54 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/halkaazn/public_html/delivery/database_connection.php on line 13
+[17-Aug-2021 14:45:54 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/halkaazn/public_html/delivery/database_connection.php on line 14
+[17-Aug-2021 14:45:54 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/halkaazn/public_html/delivery/database_connection.php on line 15
+[17-Aug-2021 14:45:54 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/halkaazn/public_html/delivery/database_connection.php on line 12
+[17-Aug-2021 14:45:54 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/halkaazn/public_html/delivery/database_connection.php on line 13
+[17-Aug-2021 14:45:54 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/halkaazn/public_html/delivery/database_connection.php on line 14
+[17-Aug-2021 14:45:54 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/halkaazn/public_html/delivery/database_connection.php on line 15
+[17-Aug-2021 14:45:57 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home3/halkaazn/public_html/delivery/user.php on line 9
+[17-Aug-2021 14:46:00 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/halkaazn/public_html/delivery/database_connection.php on line 12
+[17-Aug-2021 14:46:00 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/halkaazn/public_html/delivery/database_connection.php on line 13
+[17-Aug-2021 14:46:00 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/halkaazn/public_html/delivery/database_connection.php on line 14
+[17-Aug-2021 14:46:00 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/halkaazn/public_html/delivery/database_connection.php on line 15
+[17-Aug-2021 14:46:00 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home3/halkaazn/public_html/delivery/d_account_ctrl.php on line 85
+[17-Aug-2021 14:46:00 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home3/halkaazn/public_html/delivery/d_account_ctrl.php on line 87
+[17-Aug-2021 14:49:02 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home3/halkaazn/public_html/delivery/user.php on line 9
+[17-Aug-2021 14:49:43 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/halkaazn/public_html/delivery/d_account_ctrl.php:5) in /home3/halkaazn/public_html/delivery/d_account_ctrl.php on line 111
+[17-Aug-2021 14:52:06 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/halkaazn/public_html/delivery/d_account_ctrl.php:5) in /home3/halkaazn/public_html/delivery/d_account_ctrl.php on line 109
+[17-Aug-2021 14:52:15 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home3/halkaazn/public_html/delivery/user.php on line 9
+[17-Aug-2021 14:52:45 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home3/halkaazn/public_html/delivery/user.php on line 9
+[17-Aug-2021 16:56:59 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home3/halkaazn/public_html/delivery/user.php on line 9
+[17-Aug-2021 16:57:11 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/halkaazn/public_html/delivery/d_account_ctrl.php:5) in /home3/halkaazn/public_html/delivery/d_account_ctrl.php on line 109
+[17-Aug-2021 17:21:08 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home3/halkaazn/public_html/delivery/user.php on line 9
+[02-Sep-2021 16:54:52 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home3/halkaazn/public_html/delivery/user.php on line 9
+[02-Sep-2021 16:54:58 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/halkaazn/public_html/delivery/d_account_ctrl.php:5) in /home3/halkaazn/public_html/delivery/d_account_ctrl.php on line 109
+[03-Sep-2021 06:54:58 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home3/halkaazn/public_html/delivery/user.php on line 9
+[03-Sep-2021 13:40:14 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home3/halkaazn/public_html/delivery/user.php on line 9
+[05-Sep-2021 05:56:38 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home3/halkaazn/public_html/delivery/user.php on line 9
+[05-Sep-2021 05:56:52 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home3/halkaazn/public_html/delivery/user.php on line 9
+[05-Sep-2021 05:56:52 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home3/halkaazn/public_html/delivery/user.php on line 9
+[05-Sep-2021 05:56:54 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home3/halkaazn/public_html/delivery/courier_bag.php on line 5
+[10-Sep-2021 12:54:17 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home3/halkaazn/public_html/delivery/user.php on line 9
+[12-Sep-2021 08:47:01 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home3/halkaazn/public_html/delivery/user.php on line 9
+[12-Sep-2021 08:50:07 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/halkaazn/public_html/delivery/d_account_ctrl.php:5) in /home3/halkaazn/public_html/delivery/d_account_ctrl.php on line 109
+[12-Sep-2021 08:50:20 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/halkaazn/public_html/delivery/d_account_ctrl.php:5) in /home3/halkaazn/public_html/delivery/d_account_ctrl.php on line 109
+[12-Sep-2021 08:50:24 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home3/halkaazn/public_html/delivery/user.php on line 9
+[12-Sep-2021 08:50:47 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home3/halkaazn/public_html/delivery/user.php on line 9
+[12-Sep-2021 08:54:46 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home3/halkaazn/public_html/delivery/user.php on line 9
+[12-Sep-2021 08:54:51 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/halkaazn/public_html/delivery/d_account_ctrl.php:5) in /home3/halkaazn/public_html/delivery/d_account_ctrl.php on line 109
+[12-Sep-2021 09:06:21 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home3/halkaazn/public_html/delivery/user.php on line 9
+[12-Sep-2021 09:09:43 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home3/halkaazn/public_html/delivery/user.php on line 9

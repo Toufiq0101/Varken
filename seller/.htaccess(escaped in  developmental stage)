@@ -1,0 +1,12 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^seller\.halka\.in$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.seller\.halka\.in$
+RewriteRule ^seller$ "https\:\/\/halka\.in\/seller\/" [R=301,L]
+
+# Always use https for secure connections
+# Replace 'www.example.com' with your domain name
+# (as it appears on your SSL certificate)
+RewriteEngine On
+RewriteCond %{SERVER_PORT} 80
+RewriteRule ^(.*)$ https://halka.in/seller/$1 [R=301,L]

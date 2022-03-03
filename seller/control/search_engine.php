@@ -1,0 +1,16 @@
+<?php include "../database_connection.php";session_start();if ($_SESSION['client_id']) {if (isset($_POST['offset'])) {$offset =$_POST['offset'];} else {$offset =0;};$user_search_terms = $_POST['srch_key_str'];$search_keywords = "";foreach (explode(' ', $user_search_terms) as $key) {$search_keywords .= metaphone($key)." ";$search_keywords .= $key." ";};$search_query = "SELECT product_name,product_price,product_image,product_id,product_availability ";
+$search_query .= (isset($_POST['tab'])&& $_POST['tab']==='unv')?" FROM unv_products ":",product_date FROM product_storage ";
+$search_query .= "WHERE MATCH(product_name,product_keyword,product_price) AGAINST('$search_keywords') ";
+$search_query .= (isset($_POST['tab'])&& $_POST['tab']==='unv')?"":"AND product_publisher_id=$_SESSION[client_id] ";
+$search_query .= " LIMIT $offset,10";
+$search_sql = (isset($_POST['tab'])&& $_POST['tab']==='unv')?mysqli_query($unv_product_connection, $search_query):mysqli_query($product_connection, $search_query);
+if ($search_sql->num_rows===0) {echo ($offset===0)? "<div class='no_content_err-container'><img src='./css/svg/error.svg' alt='' class='no_content_err-img'><span class='no_content_err-msg'>No Product Found..Check the spelling<span></div>":"";die();} else {while($rows = mysqli_fetch_assoc($search_sql)) {$product_name = $rows['product_name'];$product_price = $rows['product_price'];$product_availability = $rows['product_availability'];$product_date = (isset($_POST['tab'])&& $_POST['tab']==='unv')?'':$rows['product_date'];$product_all_images = explode(' ', $rows['product_image']);$product_id = $rows['product_id'];$formated_price = preg_replace("/(\d+?)(?=(\d\d)+(\d)(?!\d))(\.\d+)?/i", "$1,", $product_price);echo "<div class='product_overview_container'>";if ($product_availability==='Available') {echo "<div class='product_overview product-availabel'>";} elseif ($product_availability=='Out of Stock') {echo "<div class='product_overview product-unavailabel'>";} else {echo "<div class='product_overview product-comming'>";};echo "<div class='product_image'>";
+echo (isset($_POST['tab'])&& $_POST['tab']==='unv')?"<img class='product-image' src='../../unv_images/$product_all_images[0]'loading='lazy'>":
+    "<img class='product-image' src='../../uploaded_files/$product_all_images[0]'loading='lazy'>";
+echo "</div>";
+echo (isset($_POST['tab'])&& $_POST['tab']==='unv')?"<a href='/seller/unv_product.php?u_p_id=$product_id' class='product_details '>":"<a href='/seller/product.php?edit=$product_id' class='product_details '>";echo "<span class='product-name'>$product_name</span><span class='product-price'>Rs. $formated_price</span>";echo (isset($_POST['tab'])&& $_POST['tab']==='unv')?"":"<span class='product-date'>Date:-$product_date</span>";echo "</a>"; echo (isset($_POST['tab'])&& $_POST['tab']==='unv')?"<label class='custom_checkbox-container'>
+        <input class='product-checkbox' type='checkbox' name='add_p_id' value='$product_id'>
+        <span class='custom_checkmark'></span>
+    </label>":"<input class='product-checkbox' type='checkbox' name='del_p_id' value='$product_id'>";echo"</div></div>";}}}
+    echo (isset($_POST['tab'])&& $_POST['tab']==='unv'&&$offset===0)?"<button id='add_to_garage' class='unv_product_add-btn'>+</button>":"";
+    ?>

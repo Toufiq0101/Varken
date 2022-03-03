@@ -1,0 +1,56 @@
+<div class="modal-upload-form" id="upload-product-form-container">
+<form class="upload-form" id="product-upload-form"><span
+onclick="document.getElementById('upload-product-form-container').style.display='none'"
+class="form-close-btn" title="Close">&times;</span>
+<div class="input-name one-style-input-upload-form"><label for="product_name">Name</label><input type="text"
+name="product_name" placeholder="Name..." required></div>
+<div class="input-price one-style-input-upload-form"><label for="price">Price</label><input type="number"
+name="product_price" placeholder="Price..." required></div>
+<div class="input-description-container one-style-input-upload-form">
+<label for="description">Product Description : </label>
+<label for="Description 1">Description 1 :</label><input type="text" name="product_description[]"
+placeholder="Description..." required><label for="Description 2">Description
+2 :</label><input type="text" name="product_description[]" placeholder="Description..." required><label
+for="Description 3">Description 3 :</label><input type="text" name="product_description[]"
+placeholder="Description..." ><label for="Description 4">Description 4 :</label><input
+type="text" name="product_description[]" placeholder="Description...">
+</div>
+<div class="input-price one-style-input-upload-form"><label for="Sizes">Sizes</label><input type="text"
+name="product_size" placeholder="Size...">
+<span style="font-size: x-small;color: #ff0000;">If have Sizes.Ex- S,M,Xl,XXL</span>
+</div>
+<div class="input-color" id='product_color_input-container'><label for="color">Color :</label>
+<span id='add_color-btn'>+</span>
+</div>
+<div>
+<label for='product_category'>Category</label>
+<input list='product_category_list' name='product_category' required ><datalist id="product_category_list">
+<option value='Mobile Phones'></option>
+<option value='Tablets'></option>
+<option value='Laptops and PCs'></option>
+<option value='Home Appliance'></option>
+<option value='Electronic Accesories'></option>
+<option value='Groceries'></option>
+<option value='Snacks'></option>
+<option value='Other Essentials'></option>
+<option value='Gifts and Hampers'></option>
+</datalist>
+</div>
+<div class="input-image"><input type="file" name="product_image[]" multiple required></div>
+<div class="input-availability">
+<label for="availability">Availability</label>
+<select name="availability">
+<option value="Available">Available</option>
+<option value="Comming Soon">Comming Soon</option>
+<option value="Out of Stock">Out of Stock</option>
+</select>
+</div>
+<div class="upload-btn">
+<button type="submit" class="submit-product-form-btn" name="upload_item">Upload Item</button>
+</div>
+</form>
+</div>
+<button class="form-display-btn" onclick="document.querySelector('#upload-product-form-container').style.display = 'block';" style="border-color: red;">+</button>
+<script>
+$(document).on("click", "#add_color-btn", function () { document.querySelector('#product_color_input-container').insertAdjacentHTML("beforeend", `<input type="color" name="product_color[]">`); });
+</script>

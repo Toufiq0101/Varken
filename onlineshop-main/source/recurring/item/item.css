@@ -1,0 +1,152 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+#item
+{
+    height: 400px;
+    width: 290px;
+    position: relative;
+    padding: 10px;
+    overflow: hidden;
+    /* outline: thin solid black; */
+}
+
+#item:hover
+{
+    bottom: 0.5%;
+    right: 0.5%;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    transition: box-shadow 0.1s;
+}
+
+/* item top */
+
+#item_top
+{
+    height: 300px;
+    width: 270px;
+    position: relative;
+    /* border: 1px solid black; */
+}
+
+#item_top img
+{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px
+}
+
+#item_top_img:hover
+{
+    cursor: pointer;
+}
+
+#favourites
+{
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+#cls-1
+{
+    fill:transparent;
+}
+
+#cls-2
+{
+    fill:black;
+}
+
+
+#item_tags
+{
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 0;
+    padding: 5px;
+}
+
+/* add to cart */
+
+#item_add
+{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    right: 5px;     /* vll. 10px */
+    bottom: -25px;  /* vll. -25px */
+    border-radius: 100px;
+    overflow: hidden;
+    background-color: white;
+}
+
+#item_add_pressed
+{
+    width: 0;
+    position: absolute;
+    right: 5px;
+    bottom: -25px;    /* vll. -25px */
+    display: flex;
+    visibility: hidden;
+    outline: 1px;
+}
+
+.item_add_pressed_button
+{
+    height: 50px;
+    width: 50px;
+    outline: thin;
+    background-color: white;
+}
+
+#item_add_pressed_label
+{
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    line-height: 50px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    background-color: white;
+}
+
+#item_add_plus
+{
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border: 1px solid black;
+}
+
+#item_add_minus
+{
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border: 1px solid black;
+}
+
+/* item bottom */
+
+#item_bottom
+{
+    height: 80px;
+    width: 270px;
+    padding: 20px;
+    /* margin-top: 10px; */
+    margin-bottom: 10px;
+    /* border: 1px solid black; */
+}
+
+#item_bottom:hover
+{
+    cursor: pointer;
+}

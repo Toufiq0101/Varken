@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Varken | Seller</title>
+    <script src="../transmitter.js" defer></script>
+    <script src="./tab_ctrl.js" defer></script>
+    <script src="./index.js" defer></script>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" defer href="./css/colors.css">
+    <link rel="manifest" href="./manifest.json">
+    <link rel="shortcut icon" href="../web_files/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" defer href="./css/app.css">
+    <script src='./notify.js' defer></script>
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/algoliasearch@4/dist/algoliasearch-lite.umd.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/instantsearch.js@4" defer></script>
+    <!-- <script src="./search_engine.js" defer></script> -->
+</head>
+
+<body class="body" id="body">
+    <header class="header">
+        <div class="header-1 left-header-1"><img src="../web_files/halka.webp" class="company-logo" alt="Logo"
+                draggable="false"><span style="font-size: x-small;color: rgb(121, 121, 121);"> beta</span></div>
+        <div class="right-header-1"><img src="./css/svg/profile.svg" class="profile-btn" id="profile-btn" alt="Profile"
+                draggable="false"></div>
+    </header>
+    <div class="fake-div"></div>
+    <div class="header-2">
+        <div class="search-bar-container">
+            <div class="sticky-menu-btn"><img class="menu-btn"
+                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABmJLR0QA/wD/AP+gvaeTAAAAKElEQVRIiWNgGAXDHjAisf/TwmwmKhs6CgYhGE1Fo4ByMJqKRsEQAADWCQMKYvEFtQAAAABJRU5ErkJggg=="
+                    onclick="document.getElementById('menu_container').classList.toggle('menu_container-display')"
+                    alt="Menu" draggable="false"></div>
+            <div class="search-bar">
+                <div id="search_input-container"></div><span
+                    style="background-image: url(./css/svg/search-icon.svg); background-repeat: no-repeat; object-fit: contain;"
+                    class="search-btn" id="search-btn"></span>
+            </div>
+        </div>
+        <div class="menu_container" id="menu_container"
+            onclick="document.getElementById('menu_container').classList.remove('menu_container-display')">
+            <nav class="nav-link nav-link-container">
+                <div id="my_garage" class='nav_link_btn-container'><img src="./css/svg/store.svg" class="tab-btn"
+                        draggable="false" alt="Mygarage"><span>Store</span></div>
+                <div id="customer_orders" class='nav_link_btn-container'><img src="./css/svg/customers.svg"
+                        class="tab-btn" draggable="false" alt="Customers"><span>Customers</span></div>
+                <div id="pending_orders" class='nav_link_btn-container'><img src="./css/svg/pending-orders.svg"
+                        class="tab-btn" draggable="false" alt="Pendingorders"><span>Pending Orders</span></div>
+                <div id="return_rqsts" class='nav_link_btn-container'><img src="./css/svg/return_rqst.svg"
+                        class="tab-btn" draggable="false" alt="Return Requests">Returns</div>
+                <div id="on_the_way" class='nav_link_btn-container'><img src="./css/svg/on-the-way.svg" class="tab-btn"
+                        draggable="false" alt="On The Way">On the Way</div>
+                <div id='delete_item' class='nav_link_btn-container'><img src="./css/svg/trash.svg" class="tab-btn"
+                        draggable="false" alt="Delete">Delete</div>
+                <div id="unv_products" class='nav_link_btn-container'><img src="./css/svg/inventory.svg" class="tab-btn"
+                        draggable="false" alt="Inventory">Warehouse</div>
+                <div class='nav_link_btn-container' id="download-btn"><img src="./css/svg/download.svg" class="tab-btn"
+                        draggable="false" alt="Download"><span>Download App</span></div>
+            </nav>
+        </div>
+    </div>
+    <main id="main-content"></main>
+    <div id="modal-upload-form-container"></div>
+    <div class="zoomed-img-modal-container"><span
+            onclick="document.querySelector('.zoomed-img-modal-container').style.display='none'"
+            class="close-zoomed-img" title="Close">&times;</span><img class='zoomed-img' src="" alt="full-img"></div>
+    <div class="load_more-spinner"></div>
+    <div id="alert"></div>
+    <footer class="footer" id="footer">
+        <div class="footer-content-container">
+            <div class="contact_us footer-grid-item">
+                <div>Contact Us</div>
+                <ul class='contact_links'>
+                    <li><a href='https://wa.me/qr/5DJPSM4CB47GN1'><img src="./css/svg/whatsapp.svg" alt="whatsapp"
+                                class="menu-btn" draggable="true"></a></li>
+                    <li><img src="./css/svg/instagram.svg" alt="instagram" class="menu-btn" draggable="true"></li>
+                    <li><img src="./css/svg/facebook.svg" alt="facebook" class="menu-btn" draggable="true"></li>
+                </ul>
+            </div>
+            <div class="about_us footer-grid-item">About Us</div>
+            <div class="report footer-grid-item"><a href="https://wa.me/qr/5DJPSM4CB47GN1">Report</a></div>
+        </div>
+    </footer>
+    <div id="loading-spinner-container"></div>
+</body>
+
+</html>

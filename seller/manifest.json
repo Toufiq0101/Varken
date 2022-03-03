@@ -1,0 +1,35 @@
+{
+    "name": "Halka Seller",
+    "short_name": "Halka Seller",
+    "start_url": "/seller/index.html",
+    "display": "standalone",
+    "theme_color": "#00101d",
+    "orientation": "portrait-primary",
+    "icons": [
+        {
+            "src": "../web_files/icon_72.png",
+            "type": "image/png",
+            "sizes": "72X72"
+        },
+        {
+            "src": "../web_files/icon.png",
+            "type": "image/png",
+            "sizes": "144X144"
+        },
+        {
+            "src": "../web_files/icon-sqr.png",
+            "type": "image/png",
+            "sizes": "144X144"
+        },
+        {
+            "src": "../web_files/icon_184.png",
+            "type": "image/png",
+            "sizes": "184X184"
+        },
+        {
+            "src": "../web_files/icon_512.png",
+            "type": "image/png",
+            "sizes": "512X512"
+        }
+    ]
+}

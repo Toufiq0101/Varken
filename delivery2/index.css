@@ -1,0 +1,20 @@
+.product_overview_container {
+padding: 0.5vw 1vw 0.5vw 1vw;
+}
+.product_overview {
+font-family: system-ui;
+display: flex;
+flex-direction: row;
+border: 1px solid var(--product-container-border);
+border-radius: 15px 10px 10px 15px;
+max-height: 200px;
+height: 45vw;
+width: 100%;
+min-height: 100px;
+min-width: 150px;
+box-sizing: border-box;
+position: relative;
+background: var(--product-overview-background);
+color: var(--product-overview-text);
+overflow: hidden;
+}

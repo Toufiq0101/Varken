@@ -1,0 +1,76 @@
+<script src="../transmitter.js"></script>
+
+<style>
+    .hidden_form {
+        display: none;
+    }
+</style>
+<h1>Login or Register to Start your Data Entry Job now </h1>
+<button onclick="login()">LOGIN</button>
+<button onclick="register()">REGISTER</button>
+<form action="./ctrl_rgst_login.php" method="post" id="register_form" class="hidden_form">
+    <label for="user_name">User Name</label>
+    <input type="text" name="user_name">
+    <label for="phone_number">Phone Number</label>
+    <input type="number" name="phone_number">
+    <label for="password">Password</label>
+    <input type="password" name="password">
+    <button type="submit">SUBMIT</button>
+</form>
+<form action="./ctrl_rgst_login.php" id="login_form" class="hidden_form">
+    <label for="phone_number">Phone Number</label>
+    <input type="number" name="phone_number">
+    <label for="password">Password</label>
+    <input type="password" name="password"><button type="submit">LOGIN</button>
+</form>
+<div id="err_log"></div>
+<script>
+    function login() {
+        document.querySelector("#login_form").classList.remove("hidden_form");
+        document.querySelector("#register_form").classList.add("hidden_form");
+    }
+    function register() {
+        document.querySelector("#login_form").classList.add("hidden_form");
+        document.querySelector("#register_form").classList.remove("hidden_form");
+    }
+</script>
+<script>
+    $("#register_form").on("submit", function (e) {
+        e.preventDefault();
+        const formdata = new FormData(this);
+        console.log(formdata);
+        $.ajax({
+            url: "./ctrl_rgst_login.php?register",
+            data: formdata,
+            type: "POST",
+            contentType: false,
+            processData: false,
+            success: function (data) {
+                console.log(data);
+            }
+        })
+    })
+    $("#login_form").on("submit", function (e) {
+        e.preventDefault();
+        const formdata = new FormData(this);
+        $.ajax({
+            url: "./ctrl_rgst_login.php?login",
+            data: formdata,
+            type: "POST",
+            contentType: false,
+            processData: false,
+            success: function (data) {
+                console.log(data);
+                if (Number(data) == 1) {
+                    //$("#err_log").html("Internal Server Problem Please Refresh the Page & then Try Again");
+                    window.location.replace("./index.html");
+                } else {
+                    if (Number(data) == 0 || data == 101) {
+                        $("#err_log").html("Username or Password may be incorrect");
+                        console.log(data);
+                    };
+                };
+            }
+        });
+    });
+</script>
