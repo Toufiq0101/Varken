@@ -53,9 +53,9 @@ if (isset($_SESSION['user_id'])) {
                     if (isset($p_color) && $p_color !== '') {
                         echo "<a href = './product.php?i=$p_id' class='overview-detail price'>Color : <span class='product_color' style='background-color:#000000;' data-color='#000000'></span></a>";
                     };
-                    echo "<div class='btn-container'>
+                    echo "<div class='btn-container'>Qnt : 
                     <div class='l6-p-c-cart-btn' data-add_item='$cart_dtl[1]:$p_id'><span class='del_cart_item_btn'
-                    data-cart_str='$cart_dtl[1]:$p_id'>–</span><span>$p_qnty/span><span class='quicki_add_to_cart-btn' data-add_item='31:546'>+</span>
+                    data-cart_str='$cart_dtl[1]:$p_id'>–</span><span>$p_qnty</span><span class='quicki_add_to_cart-btn' data-add_item='31:546'>+</span>
                 </div>
                 </div>
                 </div>-8    
