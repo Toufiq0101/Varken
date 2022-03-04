@@ -22,14 +22,16 @@ if (isset($_POST['cart_str'])) {
             $new_qan = $cart_4 + 1;
             $cart = substr_replace($cart, $new_qan, $cart_1 + strlen("C:$c_id:$p_id="), $cart_3);
         } else {
+            $new_qan =1;
             $cart .= "C:$c_id:$p_id=1|$p_size|$p_color|$p_msg;";
         }
         $upd_query = "UPDATE user_storage SET my_cart = '$cart' WHERE user_id = $u_id";
         $send_upd_query = mysqli_query($user_connection, $upd_query);
         if ($send_upd_query) {
-            echo 1;
+            echo "{qnty:$new_qan}";
+            // echo 1;
         } else {
-            echo 1666;
+            echo 0;
         }
     }
 };
