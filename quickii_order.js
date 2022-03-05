@@ -30,6 +30,7 @@ $(document).on("click", ".size-option", function () {
   });
 });
 $(document).on("click", ".quicki_add_to_cart-btn", function () {
+  const el = this;
   if (decodeURIComponent(document.cookie).includes("u_authentication")) {
     const cart_str = $(this).data("add_item");
     move_on = true;
@@ -57,10 +58,14 @@ $(document).on("click", ".quicki_add_to_cart-btn", function () {
         type: "POST",
         data: product_dtl,
         success: function (data) {
-          console.log(data);
-          if (Number(data) === 1) {
+          if (data.includes("qnt:")) {
+            const p_qnt = data.split(":")[1];
+            $(el).closest(".l6-p-c-cart-btn").children(".prd_qnt").text(`${p_qnt}`);
+            console.log(p_qnt);
             snackbar("Added to Cart");
-            document.querySelector(".quick_order-modal").style.display = "none";
+            if (document.querySelector(".quick_order-modal")) {
+              document.querySelector(".quick_order-modal").style.display = "none";
+            }
             document.querySelector(
               ".quckii-modal-modal-container"
             ).style.display = "none";
@@ -76,19 +81,23 @@ $(document).on("click", ".quicki_add_to_cart-btn", function () {
     snackbar("Login/Register First");
   }
 });
-// $(document).on("click", ".del_cart_item_btn", function () {
-//   const cart_str = $(this).data("cart_str");
-//   $.ajax({
-//     url: "./control/delete_from_cart.php?delete",
-//     type: "POST",
-//     data: { cart_str: cart_str },
-//     success: function (data) {
-//       remove_spinner();
-//       my_cart();
-//       snackbar("Removed from cart");
-//     },
-//   });
-// });
+$(document).on("click", ".del_cart_item_btn", function () {
+  const el = this;
+  const cart_str = $(this).data("cart_str");
+  $.ajax({
+    url: "./control/delete_from_cart.php?delete",
+    type: "POST",
+    data: { cart_str: cart_str },
+    success: function (data) {
+      const p_qnt = data.split(":")[1];
+      $(el).closest(".l6-p-c-cart-btn").children(".prd_qnt").text(`${p_qnt}`);
+      console.log(data);
+      remove_spinner();
+      // my_cart();
+      snackbar("Removed from cart");
+    },
+  });
+});
 $(document).on("click", "#order_btn", function () {
   if (decodeURIComponent(document.cookie).includes("u_authentication")) {
     const p_name = $(this).data("p_name");

@@ -145,7 +145,7 @@ foreach ($prd_arr as $l6_prd) {
     </div>
     <div class='l6-p-c-price'>Rs. $p_price</div></a>
     <div class='l6-p-c-btn-cntnt'>
-  <div class='l6-p-c-cart-btn' data-add_item='34:$p_id'><span class='del_cart_item_btn' data-cart_str='$p_seller_id:$p_id' >–</span><span>1</span><span class='quicki_add_to_cart-btn' data-add_item='$p_seller_id:$p_id'>+</span></div>
+  <div class='l6-p-c-cart-btn' data-add_item='34:$p_id'><span class='del_cart_item_btn' data-cart_str='$p_seller_id:$p_id' >–</span><span class='prd_qnt'>0</span><span class='quicki_add_to_cart-btn' data-add_item='$p_seller_id:$p_id'>+</span></div>
   <div class='l6-p-c-order-btn' onclick='open_quickii_modal(`$p_img`,`$p_name`,`$p_price`,``,``,``,`$p_id`)'><img src='/css/svg/quick_order_btn.svg'></div>
 </div>
     </div>";

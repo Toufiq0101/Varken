@@ -167,19 +167,19 @@ $(document).on("click", "#return-order", function () {
     },
   });
 });
-$(document).on("click", ".del_cart_item_btn", function () {
-  const cart_str = $(this).data("cart_str");
-  $.ajax({
-    url: "./control/delete_from_cart.php?delete",
-    type: "POST",
-    data: { cart_str: cart_str },
-    success: function (data) {
-      console.log(data)
-      remove_spinner();
-      my_cart();
-    },
-  });
-});
+// $(document).on("click", ".del_cart_item_btn", function () {
+//   const cart_str = $(this).data("cart_str");
+//   $.ajax({
+//     url: "./control/delete_from_cart.php?delete",
+//     type: "POST",
+//     data: { cart_str: cart_str },
+//     success: function (data) {
+//       console.log(data)
+//       remove_spinner();
+//       my_cart();
+//     },
+//   });
+// });
 $(document).on("submit", "#profile_form", function (e) {
   e.preventDefault();
   document.querySelector(".loadable-btn").classList.add("button--loading");

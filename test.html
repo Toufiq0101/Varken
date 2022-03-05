@@ -172,33 +172,34 @@
   </div>
 
   <script>
+    console.log(JSON.parse('{"gg":33}').gg);
     var status_var = 1;
-    function chase_status(params) {
-      if (document.querySelector("._24-Ff").children[1]) {
-        if (Notification.permission == "granted" && status_var == 1) {
-          const notify = new Notification(
-            `She came ONLINE...😱`,
-            {
-              body: "Message HER",
-              icon: "",
-              vibrate: [100, 50, 100],
-              data: {
-                dateOfArrival: Date.now(),
-                primaryKey: 1,
-              },
-              requireInteraction: true,
-            }
-          );
-          notify.addEventListener("click", function () {
-            window.open();
-          });
-          status_var = 0;
-        }
-      } else {
-        status_var = 1;
-      }
-    }
-    setInterval(chase_status, 1000);
+    // function chase_status(params) {
+    //   if (document.querySelector("._24-Ff").children[1]) {
+    //     if (Notification.permission == "granted" && status_var == 1) {
+    //       const notify = new Notification(
+    //         `She came ONLINE...😱`,
+    //         {
+    //           body: "Message HER",
+    //           icon: "",
+    //           vibrate: [100, 50, 100],
+    //           data: {
+    //             dateOfArrival: Date.now(),
+    //             primaryKey: 1,
+    //           },
+    //           requireInteraction: true,
+    //         }
+    //       );
+    //       notify.addEventListener("click", function () {
+    //         window.open();
+    //       });
+    //       status_var = 0;
+    //     }
+    //   } else {
+    //     status_var = 1;
+    //   }
+    // }
+    // setInterval(chase_status, 1000);
   </script>
 </body>
 

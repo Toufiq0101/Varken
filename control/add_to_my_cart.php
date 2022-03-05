@@ -28,10 +28,9 @@ if (isset($_POST['cart_str'])) {
         $upd_query = "UPDATE user_storage SET my_cart = '$cart' WHERE user_id = $u_id";
         $send_upd_query = mysqli_query($user_connection, $upd_query);
         if ($send_upd_query) {
-            echo "{qnty:$new_qan}";
-            // echo 1;
+            echo "qnt:$new_qan";
         } else {
             echo 0;
         }
     }
-};
+}
