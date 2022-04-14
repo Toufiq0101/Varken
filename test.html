@@ -8,133 +8,41 @@
   <title>Document</title>
   <style>
     * {
-      margin: 0%;
-      padding: 0%;
+      padding: 0;
+      margin: 0;
       box-sizing: content-box;
     }
 
-    @media screen and (max-width:500px) {
-      .menu_container {
-        width: 100%;
-        height: fit-content;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        position: absolute;
-        bottom: 0;
-        background-color: rgba(0, 0, 0, 0.5);
-        border: 0px solid rgba(0, 0, 0, 0);
-        border-radius: 10px;
+    .spcl-feature-popup-cntnr {
+      background-color: white;
+      border: 1px solid black;
+      border-radius: 10px 10px 0px 0px;
+      height: 50vh;
+      width: 95%;
+      margin: 0% 2.5% 0% 2.5%;
+      position: absolute;
+      bottom: 0;
+      animation-name: mneu_btn_animation;
+      animation-duration: 1s;
+    }
+
+    @keyframes mneu_btn_animation {
+      from {
+        height: 0px;
+        width: 0px;
       }
 
-      .nav-link-container {
-        display: grid;
-        width: 100%;
-        grid-template-columns: 33% 33% 33%;
-        justify-items: center;
-      }
-
-      .nav_link_btn-container {
-        width: 40%;
-        /* max-width: 33vw; */
-        aspect-ratio: 1/1;
-        padding: 10px;
-      }
-      .menu-btn{
-        width: 12%;
-        aspect-ratio: 1/1;
+      to {
+        height: 50vh;
+        width: 95%;
       }
     }
   </style>
 </head>
 
 <body>
-  <div class="menu_container" id="menu_container"
-    onclick="document.getElementById('menu_container').classList.remove('menu_container-display')">
-    <div class="nav-link nav-link-container">
-      <div id="home-btn" class="nav_link_btn-container">
-        <img src="./css/svg/home.svg" alt="home" class="tab-btn" draggable="false" /><span></span>
-      </div>
-      <div class="market-btn nav_link_btn-container">
-        <img src="./css/svg/market.svg" alt="market" class="tab-btn" draggable="false" /><span></span>
-      </div>
-      <div id="my_orders-btn" class="nav_link_btn-container">
-        <img src="./css/svg/my_order.svg" alt="my order" class="tab-btn" draggable="false" /><span></span>
-      </div>
-      <div id="order_history" class="nav_link_btn-container">
-        <img src="./css/svg/order_history.svg" alt="order history" class="tab-btn" draggable="false" /><span></span>
-      </div>
-      <div id="fav_stores-btn" class="nav_link_btn-container">
-        <img src="./css/svg/fav-store.svg" alt="saved store" class="tab-btn" draggable="false" /><span>
-        </span>
-      </div>
-      <div id="my_cart-btn" class="nav_link_btn-container">
-        <img src="./css/svg/my_cart.svg" alt="my cart" class="tab-btn" draggable="false" /><span></span>
-      </div>
-      <div id="wishlist-btn" class="nav_link_btn-container">
-        <img src="./css/svg/wishlist.svg" alt="wishlist" class="tab-btn" draggable="false" /><span></span>
-      </div>
-      <div id="download-btn" class="nav_link_btn-container">
-        <img src="./css/svg/download.svg" alt="download" class="tab-btn" draggable="false" /><span></span>
-      </div>
-    </div>
-    <div class="menu-btn">
-      <img src="./css/svg/menu_btn.svg" alt="download" class="tab-btn" draggable="false" /><span></span>
-    </div>
+  <div class="spcl-feature-popup-cntnr">
   </div>
 </body>
 
 </html>
-
-
-
-
-
-
-
-<!-- <!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-
-<body>
-  <script>
-    var status_var = 1;
-    function chase_status(params) {
-      if (document.querySelector("._24-Ff").children[1]) {
-        if (Notification.permission == "granted" && status_var == 1) {
-          const notify = new Notification(
-            `Came Online`,
-            {
-              body: "Message",
-              icon: "",
-              vibrate: [100, 50, 100],
-              data: {
-                dateOfArrival: Date.now(),
-                primaryKey: 1,
-              },
-              requireInteraction: true,
-            }
-          );
-          notify.addEventListener("click", function () {
-            window.open();
-          });
-          status_var = 0;
-        } else {
-          // console.log('Grant the permission..');
-        }
-      } else {
-        console.log('offline');
-        status_var = 1;
-      }
-    }
-    setInterval(chase_status, 3000);
-  </script>
-</body>
-
-</html> -->

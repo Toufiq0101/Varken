@@ -177,6 +177,9 @@ $(document).on("click", "#add_to_garage", function () {
         if (data.includes("err|Ş`(*⁂‖﹏⁂‖*)′Ş|err")) {
           error_handler(data.split("%^%")[1]);
         } else {
+          if(data==1){
+            snackbar("Products Added to Your Shop")
+          }
           unv_prdt();
         }
       },

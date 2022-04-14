@@ -457,6 +457,8 @@ function load_tab() {
   }
 }
 load_tab();
+SpeechRecognitionAlternative();
+load_tab();
 window.addEventListener("popstate", function () {
   load_tab();
   document

@@ -102,8 +102,23 @@ echo "</ul>
 // }
 // echo "</ul></div></div>";
 
-
-// LEVEL 7
+echo '<div class="l-4-cntnr">
+<div class="l-4-box">
+    <span class="l-4-b-label">Custom Order</span>
+    <div class="l-4-b-img_cntnr">
+        <img src="./220-FG882910.jpg" alt="" class="l-4-b-img">
+    </div>
+    <span class="l-4-b-example">Stationary, Medicine, Monthly Grocery List etc</span>
+</div>
+<div class="l-4-box">
+    <span class="l-4-b-label">Pick N Drop</span>
+    <div class="l-4-b-img_cntnr">
+        <img src="./220-SM833448.jpg" alt="" class="l-4-b-img">
+    </div>
+    <span class="l-4-b-example">Documents, Charger, Clothes etc</span>
+</div>
+</div>';
+// LEVEL 5
 date_default_timezone_set('Asia/Kolkata');
 $hrs =  explode(':', date('H:i'))[0];
 $col_nm_l6 = 'night_products';

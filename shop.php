@@ -97,7 +97,7 @@
                 <div class='store_img-container'>
                 <img class='store-image' src='./uploaded_files/$store_image' alt=''>
                 <img class='seller-image' src='./uploaded_files/$client_image' alt=''>
-                <div class='str_special_tags'>#Happy Hours <span class='verified_shop-sign'>✔verified</span></div>
+                <div class='str_special_tags'><span class='verified_shop-sign'>✔verified</span></div>
                 </div>
                 <div class='store_details-container'>
                 <div class='store_detail-level1'>
