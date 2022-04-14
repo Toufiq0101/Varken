@@ -26,7 +26,7 @@ session_start();
                 beta</span> -->
         </div>
         <a class="right-header-1" href="/?profile">
-            <img src="./css/svg/profile.svg" class="profile-btn" id="profile-btn" alt="profile" draggable="false" />
+            <img src="./css/svg/sentimental_profile.svg" class="profile-btn" id="profile-btn" alt="profile" draggable="false" />
         </a>
     </header>
     <div class="fake-div"></div>
@@ -115,21 +115,13 @@ session_start();
 </div>
 </div>
 <div class='wishlist-btn-container' data-p_id='$product_id'>
-<svg xmlns='http://www.w3.org/2000/svg' x='0px' y='0px' viewBox='0 0 172 172'
-style=' fill:#000000;'>
-<g fill='none' fill-rule='nonzero' stroke='none' stroke-width='1' stroke-linecap='butt' stroke-linejoin='miter'
-stroke-miterlimit='10' stroke-dasharray='' stroke-dashoffset='0' font-family='none' font-weight='none'
-font-size='none' text-anchor='none' style='mix-blend-mode: normal'>
-<path d='M0,172v-172h172v172z' fill='none'></path>
-<path id='wishlist-btn-container' fill='#1c1c1c'
-d='M86,172c-47.49649,0 -86,-38.50351 -86,-86v0c0,-47.49649 38.50351,-86 86,-86v0c47.49649,0 86,38.50351 86,86v0c0,47.49649 -38.50351,86 -86,86z'>
-</path>
-<g id='wishlist-btn' fill='#ffffff'>
-<path
-d='M86,146.89069l-1.70067,-1.41031c-3.22505,-2.69618 -7.5908,-5.62051 -12.65133,-9.00111c-19.71326,-13.20093 -46.70622,-31.26537 -46.70622,-62.0641c0,-19.02884 15.48232,-34.51117 34.51117,-34.51117c10.33883,0 20.02436,4.60425 26.54705,12.47504c6.52269,-7.87079 16.20822,-12.47504 26.54705,-12.47504c19.02884,0 34.51117,15.48232 34.51117,34.51117c0,30.79873 -26.99296,48.86316 -46.70622,62.0641c-5.06053,3.3806 -9.42628,6.30492 -12.65133,9.00111z'>
-</path>
-</g>
-</g>
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='#000000'>
+    <path d='M0 0h24v24H0V0z' fill='none' />
+    <path id='wishlist-btn-color' 
+        d='M16.5 5c-1.54 0-3.04.99-3.56 2.36h-1.87C10.54 5.99 9.04 5 7.5 5 5.5 5 4 6.5 4 8.5c0 2.89 3.14 5.74 7.9 10.05l.1.1.1-.1C16.86 14.24 20 11.39 20 8.5c0-2-1.5-3.5-3.5-3.5z'
+        opacity='1' fill='none'/>
+    <path
+        d='M16.5 3c-1.74 0-3.41.81-4.5 2.09C10.91 3.81 9.24 3 7.5 3 4.42 3 2 5.42 2 8.5c0 3.78 3.4 6.86 8.55 11.54L12 21.35l1.45-1.32C18.6 15.36 22 12.28 22 8.5 22 5.42 19.58 3 16.5 3zm-4.4 15.55l-.1.1-.1-.1C7.14 14.24 4 11.39 4 8.5 4 6.5 5.5 5 7.5 5c1.54 0 3.04.99 3.57 2.36h1.87C13.46 5.99 14.96 5 16.5 5c2 0 3.5 1.5 3.5 3.5 0 2.89-3.14 5.74-7.9 10.05z' fill='#ff0047ed'/>
 </svg>
 </div></div>
 <div class='product_info'>
@@ -157,7 +149,8 @@ Rs.$formated_price
                     };
                     echo "</div>";
                 };
-                echo "<div class='size_option-container'>Any specification : <input type='text' data-msg='' class='specific_msg' id='specific-msg-bar' placeholder='any specific message to seller'></div>";
+                echo "<div class='size_option-container'>Any specification : <input type='text' data-msg='' class='specific_msg' id='specific-msg-bar' placeholder='any specific message to seller'  autocomplete='off'></div>";
+                echo "<div class='show_prd_details'>More</div>";
                 echo "<div class='product-description'>
 Features
 <ul>";
@@ -209,7 +202,7 @@ $store_location
                 if ($mfs_sql->num_rows !== 0) {
                     echo "<div class='more-from-store_container'>
 <div class='section-heading'>
-More From Store...
+More From Store
 </div>
 <div class='splide' id='more-store-product-overview'>
 <div class='splide__track'>
@@ -236,7 +229,7 @@ FROM product_storage WHERE product_category = '$product_category' ORDER BY produ
                     echo "
 <div class='related-product_container'>
  <div class='section-heading'>
- From This Category...
+ From This Category
  </div>
  <div class='splide' id='related-product-overview-slider'>
  <div class='splide__track'>

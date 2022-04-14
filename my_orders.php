@@ -39,7 +39,7 @@ if (isset($_SESSION['user_id'])) {
     };
 
     if (isset($order_str)) {
-        foreach ($order_str as $p_dtl) {
+        foreach ($order_str as $p_index => $p_dtl) {
             $ord_dtl = explode(':', $p_dtl);
             if ($ord_dtl[0]) {
                 $img_check_state = false;
@@ -108,7 +108,8 @@ if (isset($_SESSION['user_id'])) {
 </div>";
                         };
                     } else {
-                        $get_p_dtl_query = "SELECT product_name,product_price,product_id,product_image,seller_id FROM product_storage WHERE product_id = '$ord_dtl[2]' ";
+                        $p_id = explode(":",explode("=",$p_dtl)[0])[2];
+                        $get_p_dtl_query = "SELECT product_name,product_price,product_id,product_image,seller_id FROM product_storage WHERE product_id = '$p_id' ";
                         $p_send_query = mysqli_query($product_connection, $get_p_dtl_query);
                         while ($rows = mysqli_fetch_assoc($p_send_query)) {
                             $product_name = $rows['product_name'];
@@ -143,7 +144,21 @@ if (isset($_SESSION['user_id'])) {
                             } elseif (isset($_GET['order_history']) && !isset($ord_dtl[3]) || $ord_dtl[3] !== 'C') {
                                 echo "<span class='btn-2' id='return-order' data-return_my_order_str='$seller_id:$_SESSION[user_id]:$ord_dtl[2]'>RETURN</span>";
                             };
-                            echo "</div></div></div></div>";
+                            echo "</div></div></div>";
+                            if (isset($_GET['order_history'])) {
+                                echo "<div class='ratingForm'>
+    <div class='rating'>
+        <input type='radio' id='prd-$p_index-star5' class='rating_input' name='rating' value='5' /><label for='prd-$p_index-star5'>5 stars</label>
+        <input type='radio' id='prd-$p_index-star4' class='rating_input' name='rating' value='4' /><label for='prd-$p_index-star4'>4 stars</label>
+        <input type='radio' id='prd-$p_index-star3' class='rating_input' name='rating' value='3' /><label for='prd-$p_index-star3'>3 stars</label>
+        <input type='radio' id='prd-$p_index-star2' class='rating_input' name='rating' value='2' /><label for='prd-$p_index-star2'>2 stars</label>
+        <input type='radio' id='prd-$p_index-star1' class='rating_input' name='rating' value='1' /><label for='prd-$p_index-star1'>1 stars</label>
+    </div>
+    <div class='clearfix'></div>
+    <img src='./css/svg/send_rating_btn.svg' alt='send' class='submit clearfix' onclick='submit_rating(this)' data-ord_dtl = '$p_dtl' data-p_id='$product_id'>
+    </div>";
+                            }
+                            echo "</div>";
                         };
                     };
                 };

@@ -1,4 +1,4 @@
-function open_quickii_modal(p_img='', p_name='', p_price='', p_color='', p_size='', p_p_id='', p_id) {
+function open_quickii_modal(p_img = '', p_name = '', p_price = '', p_color = '', p_size = '', p_p_id = '', p_id) {
     console.log(p_name);
     let quickii_modal_markup = `<div class='quick_order-modal'>
     <span id='close_quickii-modal'>&times</span>
@@ -31,13 +31,8 @@ function open_quickii_modal(p_img='', p_name='', p_price='', p_color='', p_size=
             }
         });
         quickii_modal_markup += `</span>`;
-    } else {
-        quickii_modal_markup += `
-<div class='size_option-container'>Any specification :
-    <input type='text' data-size='' class='size-option' id='specific-msg-bar'
-        placeholder='any specific message to seller'>
-</div>`;
-    };
+    }
+    quickii_modal_markup += `<div class='size_option-container'>Any specification : <input type='text' data-msg='' class='specific_msg' id='specific-msg-bar' placeholder='any specific message to seller'></div>`;
     quickii_modal_markup += `<div class='product_btn-container'>
     <span class='add-to-cart-btn quicki_add_to_cart-btn' data-add_item='${p_p_id}:${p_id}'>Add To
         Cart</span>

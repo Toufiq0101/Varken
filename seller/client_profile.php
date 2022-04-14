@@ -42,7 +42,7 @@ session_start(); ?><div class='dark_mode-container'>
                                     } else {
                                         echo "<img src='../web_files/profile.webp' alt='' draggable='false'>";
                                     } ?></div>
-    <div class='profile-client-img'><?php if (file_exists("../uploaded_files/$client_image")) {
+    <div class='profile-client-img'><?php if (file_exists("../uploaded_files/$store_image")) {
                                         echo "<img src='../uploaded_files/$store_image' alt=''>";
                                     } else {
                                         echo "<img src='../web_files/profile.webp' alt='' draggable='false'>";

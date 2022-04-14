@@ -65,42 +65,42 @@ echo "</ul>
 </div>";
 
 // LEVEL 4
-echo "<div class='top_slr-header'>Products of the Week</div><div class='prd_o_t_wk-container'>
-<div class='splide' id='best_products_list-container'>
-  <div class='splide__track'>
-    <ul class='splide__list'>";
-foreach ($top_products as $p_position => $p_card) {
-  if ($p_card) {
-    $p_card = explode(':', $p_card);
-    $p_img = $p_card[3];
-    $p_position = $p_position + 1;
-    echo "<li class='splide__slide'>
-    <a href='/product.php?i=$p_card[0]'>
-            <div class='prd_card'>
-            <div class='postion_tag-prd_card'>
-            #$p_position
-            </div>
-            <div class='prd_dtl-prd_card'>
-            <img src='/uploaded_files/$p_img' alt='' class='prd_img'>
-            </div></a>
-            </div></li>";
-  }
-}
-echo '</ul></div></div></div>
-<div id="thumbnail-slider" class="splide">
-<div class="splide__track">
-<ul class="splide__list">';
-foreach ($top_products as $p_position => $p_card) {
-  if ($p_card) {
-    $p_card = explode(':', $p_card);
-    $p_img = $p_card[3];
-    $p_position = $p_position + 1;
-    echo "<li class='splide__slide splide_slide-user_custom'>
-        <img src='/uploaded_files/$p_img'>
-      </li>";
-  }
-}
-echo "</ul></div></div>";
+// echo "<div class='top_slr-header'>Products of the Week</div><div class='prd_o_t_wk-container'>
+// <div class='splide' id='best_products_list-container'>
+//   <div class='splide__track'>
+//     <ul class='splide__list'>";
+// foreach ($top_products as $p_position => $p_card) {
+//   if ($p_card) {
+//     $p_card = explode(':', $p_card);
+//     $p_img = $p_card[3];
+//     $p_position = $p_position + 1;
+//     echo "<li class='splide__slide'>
+//     <a href='/product.php?i=$p_card[0]'>
+//             <div class='prd_card'>
+//             <div class='postion_tag-prd_card'>
+//             #$p_position
+//             </div>
+//             <div class='prd_dtl-prd_card'>
+//             <img src='/uploaded_files/$p_img' alt='' class='prd_img'>
+//             </div></a>
+//             </div></li>";
+//   }
+// }
+// echo '</ul></div></div></div>
+// <div id="thumbnail-slider" class="splide">
+// <div class="splide__track">
+// <ul class="splide__list">';
+// foreach ($top_products as $p_position => $p_card) {
+//   if ($p_card) {
+//     $p_card = explode(':', $p_card);
+//     $p_img = $p_card[3];
+//     $p_position = $p_position + 1;
+//     echo "<li class='splide__slide splide_slide-user_custom'>
+//         <img src='/uploaded_files/$p_img'>
+//       </li>";
+//   }
+// }
+// echo "</ul></div></div>";
 
 
 // LEVEL 7
@@ -108,19 +108,24 @@ date_default_timezone_set('Asia/Kolkata');
 $hrs =  explode(':', date('H:i'))[0];
 $col_nm_l6 = 'night_products';
 
+echo "<div class='h-p-lvl-6'>";
+
 if ($hrs >= 3 && $hrs < 11) {
   $col_nm_l6 = 'morning_products';
+  echo "<div class='top_slr-header'>Products You Might Need<br>this Morning</div>";
 } elseif ($hrs >= 11 && $hrs < 16) {
   $col_nm_l6 = 'mid_day_products';
+  echo "<div class='top_slr-header'>Products You Might Need<br>this Afternoon</div>";
 } elseif ($hrs >= 16 & $hrs < 19) {
   $col_nm_l6 = 'evening_products';
+  echo "<div class='top_slr-header'>Products You Might Need<br>this Evening</div>";
 } else {
   $col_nm_l6 = 'night_products';
+  echo "<div class='top_slr-header'>Products You Might Need<br>this Evening</div>";
 }
+echo "<div class='l6-p-cntnr'>";
+
 $l6_query = mysqli_query($web_db_connection, "SELECT $col_nm_l6 FROM home_page_data LIMIT 1");
-echo "<div class='h-p-lvl-6'>
-<div class='top_slr-header'>Products You Might Need<br>this Morning</div>
-<div class='l6-p-cntnr'>";
 $l6_prd_row = mysqli_fetch_assoc($l6_query);
 $prd_arr = explode(';', $l6_prd_row["$col_nm_l6"]);
 foreach ($prd_arr as $l6_prd) {
@@ -136,7 +141,7 @@ foreach ($prd_arr as $l6_prd) {
     <a class='l6-p-card-p_link' href='/product.php?i=$p_id'>
     <div class='l6-p-c-img'>
     <img
-    src='/web_files/$p_img'
+    src='/uploaded_files/$p_img'
     alt=''
     />
     </div>
@@ -146,7 +151,7 @@ foreach ($prd_arr as $l6_prd) {
     <div class='l6-p-c-price'>Rs. $p_price</div></a>
     <div class='l6-p-c-btn-cntnt'>
   <div class='l6-p-c-cart-btn' data-add_item='34:$p_id'><span class='del_cart_item_btn' data-cart_str='$p_seller_id:$p_id' >–</span><span class='prd_qnt'>0</span><span class='quicki_add_to_cart-btn' data-add_item='$p_seller_id:$p_id'>+</span></div>
-  <div class='l6-p-c-order-btn' onclick='open_quickii_modal(`$p_img`,`$p_name`,`$p_price`,``,``,``,`$p_id`)'><img src='/css/svg/quick_order_btn.svg'></div>
+  <div class='l6-p-c-order-btn' onclick='open_quickii_modal(`$p_img`,`$p_name`,`$p_price`,``,``,`$p_seller_id`,`$p_id`)'><img src='/css/svg/quick_order_btn.svg'></div>
 </div>
     </div>";
   }
@@ -157,7 +162,7 @@ foreach ($prd_arr as $l6_prd) {
 echo "</div></div>";
 
 // LEVEL 5
-echo "<div class='top_slr-header'>Fooding Essens</div>
+echo "<div class='top_slr-header'>Shop by Categories</div>
 <div class='fooding-ctg'>
   <div class='f-ctg-box1' onclick='sections(`Snacks`)'><div>SNACKS</div></div>
   <div class='f-ctg-flex-row-1'>

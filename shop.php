@@ -65,7 +65,7 @@
                     <img src="./css/svg/my_cart.svg" alt="my cart" class="tab-btn" draggable="false" /><span>Cart</span>
                 </a>
                 <a href="/?wishlist" id="wishlist-btn" class="nav_link_btn-container">
-                    <img src="./css/svg/wishlist.svg" alt="wishlist" class="tab-btn" draggable="false" /><span>Wishlist</span>
+                    <img src="./css/svg/wishlist.svg" alt= "wishlist" class="tab-btn" draggable="false" /><span>Wishlist</span>
                 </a>
             </nav>
         </div>
@@ -227,8 +227,8 @@
                             <div class='l6-p-c-price'>Rs. $product_price</div>
                             </a>
                             <div class='l6-p-c-btn-cntnt'>
-  <div class='l6-p-c-cart-btn quicki_add_to_cart-btn' data-add_item='$c_id:$product_id'><img src='/css/svg/shopping-cart.svg'></div>
-  <div class='l6-p-c-order-btn' onclick='open_quickii_modal(`$product_image[0]`,`$product_name`,`$product_price`,``,``,``,`$product_id`)'><img src='/css/svg/quick_order_btn.svg'></div>
+  <div class='l6-p-c-cart-btn'><span class='del_cart_item_btn' data-cart_str='$c_id:$product_id' >–</span><span class='prd_qnt'>0</span><span class='quicki_add_to_cart-btn' data-add_item='$c_id:$product_id'>+</span></div>
+  <div class='l6-p-c-order-btn' onclick='open_quickii_modal(`$product_image[0]`,`$product_name`,`$product_price`,``,``,`$c_id`,`$product_id`)'><img src='/css/svg/quick_order_btn.svg'></div>
 </div>
                             </div>";
                         };

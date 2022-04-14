@@ -113,7 +113,7 @@ $(document).on("click", "#hire_me-btn", function () {
 
 function search(query) {
   // let searched_prd_markup = ``;
-  algoliaClient_shop.initIndex('varken').search(query, {
+  algoliaClient_shop.initIndex('varken_products').search(query, {
     aroundLatLng: '23.381809993197447, 85.32847040217709',
     fitler: ''
   }).then(({ hits }) => {
@@ -167,7 +167,7 @@ console.log(window.location.search.split("=")[1])
 function search(query) {
   console.log(query)
   let searched_prd_markup = ``;
-  algoliaClient_shop.initIndex('varken').search(query, {
+  algoliaClient_shop.initIndex('varken_products').search(query, {
     aroundLatLng: '23.381809993197447, 85.32847040217709',
     // filters: `seller_id:${window.location.search.split("=")[1]}`,
   }).then(({ hits }) => {

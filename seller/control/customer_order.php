@@ -58,14 +58,17 @@ if ($_SESSION['client_id']) {
                     };
                     echo "'>&times</span><div class='product_image'> <img class='product-image' src='../../uploaded_files/$product_all_images[0]'></div><div class='product_details product_page_link'> <span class='product-name'>$product_name</span><span class='product-price'>Rs. $formated_price</span>";
                     if (isset($prd_specifics) && $prd_specifics !== '') {
-                        if ($prd_specifics[0] !== '') {
-                            echo "<span class='product_name'>Size: $prd_specifics[0]</span>";
+                        if ($prd_specifics[0]!=='') {
+                            echo "<span class='product_name'>Quantity: $prd_specifics[0]</span>";
                         }
-                        if ($prd_specifics[1]!=='') {
-                            echo "<span class='product_name'>Color: <input type='color' value='$prd_specifics[1]' disabled></span>";
+                        if ($prd_specifics[1] !== '') {
+                            echo "<span class='product_name'>Size: $prd_specifics[1]</span>";
                         }
                         if ($prd_specifics[2]!=='') {
-                            echo "<span class='product_name'>Message: $prd_specifics[2]</span>";
+                            echo "<span class='product_name'>Color: <input type='color' value='$prd_specifics[2]' disabled></span>";
+                        }
+                        if ($prd_specifics[3]!=='') {
+                            echo "<span class='product_name'>Message: $prd_specifics[3]</span>";
                         }
                     };
                     echo "</div></div></div>";

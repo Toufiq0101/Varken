@@ -8,6 +8,7 @@ if (isset($_POST['cart_str'])) {
     $p_color = isset($_POST['p_color']) ? $_POST['p_color'] : '';
     $p_size = isset($_POST['p_size']) ? $_POST['p_size'] : '';
     $p_msg = isset($_POST['p_msg']) ? $_POST['p_msg'] : '';
+    echo $p_msg;
     $c_id = $cart_dtl[0];
     $p_id = $cart_dtl[1];
     $get_query = "SELECT my_cart FROM user_storage WHERE user_id = $u_id";

@@ -33,12 +33,12 @@ function snackbar(message) {
     alert_el.className = alert_el.className.replace("show-alert", "");
   }, 3000);
 }
-function loading_spinner() {
-  document.getElementById("loading-spinner-container").style.display = "flex";
-}
-function remove_spinner() {
-  document.getElementById("loading-spinner-container").style.display = "none";
-}
+// function loading_spinner() {
+//   document.getElementById("loading-spinner-container").style.display = "flex";
+// }
+// function remove_spinner() {
+//   document.getElementById("loading-spinner-container").style.display = "none";
+// }
 let offset;
 let load_more_ctrl_var;
 const footer = document.querySelector("#footer");
@@ -99,7 +99,7 @@ function profile() {
     type: "GET",
     success: function (data) {
       $("#main-content").html(data);
-      remove_spinner();
+      // remove_spinner();
       if (window.location.search !== "?profile") {
         history.pushState("", "", "?profile");
       }
@@ -114,7 +114,7 @@ $(document).on("click", ".del-wishlist", function () {
     data: { p_id: p_id },
     success: function (data) {
       wishlist();
-      remove_spinner();
+      // remove_spinner();
     },
   });
 });
@@ -123,7 +123,7 @@ function my_orders(order_type) {
     url: `./my_orders.php?${order_type}`,
     type: "POST",
     success: function (data) {
-      remove_spinner();
+      // remove_spinner();
       $("#main-content").html(data);
       if (window.location.search !== `?${order_type}`) {
         history.pushState("", "", `?${order_type}`);
@@ -139,12 +139,11 @@ $(document).on("click", "#cancel-order", function () {
     data: { cancel_order_str: element_data },
     success: function (check) {
       console.log(check)
-      remove_spinner();
+      // remove_spinner();
+      my_orders("my_orders");
       if (Number(check) === 1) {
-        my_orders("my_orders");
         snackbar("Cancelled..!");
       } else {
-        my_orders("my_orders");
         snackbar("Order Cancelation Failed..!");
       }
     },
@@ -157,7 +156,7 @@ $(document).on("click", "#return-order", function () {
     type: "POST",
     data: { return_order_str: element_data },
     success: function (check) {
-      remove_spinner();
+      // remove_spinner();
       my_orders("order_history");
       if (Number(check) === 1) {
         snackbar("Return Requested Successfully");
@@ -167,19 +166,6 @@ $(document).on("click", "#return-order", function () {
     },
   });
 });
-// $(document).on("click", ".del_cart_item_btn", function () {
-//   const cart_str = $(this).data("cart_str");
-//   $.ajax({
-//     url: "./control/delete_from_cart.php?delete",
-//     type: "POST",
-//     data: { cart_str: cart_str },
-//     success: function (data) {
-//       console.log(data)
-//       remove_spinner();
-//       my_cart();
-//     },
-//   });
-// });
 $(document).on("submit", "#profile_form", function (e) {
   e.preventDefault();
   document.querySelector(".loadable-btn").classList.add("button--loading");
@@ -201,7 +187,7 @@ $(document).on("submit", "#profile_form", function (e) {
       processData: false,
       success: function (data) {
         console.log(data)
-        remove_spinner();
+        // remove_spinner();
         document
           .querySelector(".loadable-btn")
           .classList.remove("button--loading");
@@ -220,7 +206,7 @@ $(document).on("click", "#order_cart-btn", function () {
     url: "./control/order_cart.php?order_cart",
     type: "POST",
     success: function (data) {
-      remove_spinner();
+      // remove_spinner();
       if (Number(data) === 1) {
         my_cart();
         snackbar("Cart Ordered Successfully..!");
@@ -235,7 +221,7 @@ function wishlist() {
     url: "./wishlist.php",
     type: "POST",
     success: function (data) {
-      remove_spinner();
+      // remove_spinner();
       $("#main-content").html(data);
       if (window.location.search !== "?wishlist") {
         history.pushState("", "", "?wishlist");
@@ -248,7 +234,7 @@ function my_cart() {
     url: "./my_cart.php",
     type: "GET",
     success: function (data) {
-      remove_spinner();
+      // remove_spinner();
       $("#main-content").html(data);
       if (window.location.search !== "?my_cart") {
         history.pushState("", "", "?my_cart");
@@ -262,7 +248,7 @@ function market() {
     url: "./market.php",
     type: "GET",
     success: function (data) {
-      remove_spinner();
+      // remove_spinner();
       $("#main-content").html(data);
       if (window.location.search !== "?market") {
         history.pushState("", "", "?market");
@@ -277,7 +263,7 @@ function fav_store() {
     url: "./market.php?fav_store",
     type: "GET",
     success: function (data) {
-      remove_spinner();
+      // remove_spinner();
       $("#main-content").html(data);
       if (window.location.search !== "?fav_store") {
         history.pushState("", "", "?fav_store");
@@ -291,7 +277,7 @@ function sections(search) {
     url: `./sections.php?cat=${search}`,
     type: "GET",
     success: function (data) {
-      remove_spinner();
+      // remove_spinner();
       window.scrollTo(0, 0);
       $("#main-content").html(data);
       // manage_markups();
@@ -309,7 +295,7 @@ function services_tab() {
     type: "GET",
     url: "./market.php?service_market",
     success: function (data) {
-      remove_spinner();
+      // remove_spinner();
       $("#main-content").html(data);
       if (window.location.search !== `?services`) {
         history.pushState("", "", `?services`);
@@ -328,51 +314,51 @@ function home_content() {
       $("#main-content").html(data);
       new Splide("#home-banner-container", {
         type: "loop",
-        padding:'2rem',
+        padding: '2rem',
         lazyLoad: "nearby",
         autoplay: true,
         interval: 3000,
-        arrows:false,
+        arrows: false,
       }).mount();
       new Splide(`#best_sellers_list-container`, {
         padding: { left: 10, right: 10 },
         lazyLoad: "sequential",
         rewind: true,
-        arrows:false,
+        arrows: false,
         autoWidth: true,
         pagination: false,
-        gap:10,
-      }).mount();
-      var main = new Splide(`#best_products_list-container`, {
-        type: 'fade',
-        rewind: true,
-        pagination: false,
-        arrows: false,
-        gap:10,
-      });
-      var thumbnails = new Splide('#thumbnail-slider', {
-        fixedWidth: 100,
-        fixedHeight: 60,
         gap: 10,
-        rewind: true,
-        pagination: false,
-        arrows:false,
-        cover: true,
-        focus:'center',
-        isNavigation: true,
-        // start:1,
-        breakpoints: {
-          600: {
-            fixedWidth: 70,
-            fixedHeight: 50,
-          },
-        },
-        autoplay:true,
-        interval:2000,
-      });
-      main.sync(thumbnails);
-      main.mount();
-      thumbnails.mount();
+      }).mount();
+      // var main = new Splide(`#best_products_list-container`, {
+      //   type: 'fade',
+      //   rewind: true,
+      //   pagination: false,
+      //   arrows: false,
+      //   gap: 10,
+      // });
+      // var thumbnails = new Splide('#thumbnail-slider', {
+      //   fixedWidth: 100,
+      //   fixedHeight: 60,
+      //   gap: 10,
+      //   rewind: true,
+      //   pagination: false,
+      //   arrows: false,
+      //   cover: true,
+      //   focus: 'center',
+      //   isNavigation: true,
+      //   // start:1,
+      //   breakpoints: {
+      //     600: {
+      //       fixedWidth: 70,
+      //       fixedHeight: 50,
+      //     },
+      //   },
+      //   autoplay: true,
+      //   interval: 2000,
+      // });
+      // main.sync(thumbnails);
+      // main.mount();
+      // thumbnails.mount();
     },
   });
   // remove_spinner();
@@ -382,7 +368,7 @@ function home_content() {
 }
 $(document).on("click", "#my_orders-btn", function () {
   if ($(this).data("disable") !== true) {
-    loading_spinner();
+    // loading_spinner();
     my_orders("my_orders");
   } else {
     snackbar("Login/Register First..!");
@@ -390,7 +376,7 @@ $(document).on("click", "#my_orders-btn", function () {
 });
 $(document).on("click", "#order_history", function () {
   if ($(this).data("disable") != true) {
-    loading_spinner();
+    // loading_spinner();
     my_orders("order_history");
   } else {
     snackbar("Login/Register First..!");
@@ -398,19 +384,19 @@ $(document).on("click", "#order_history", function () {
 });
 $(document).on("click", "#wishlist-btn", function () {
   if ($(this).data("disable") !== true) {
-    loading_spinner();
+    // loading_spinner();
     wishlist();
   } else {
     snackbar("Login/Register First..!");
   }
 });
 $(document).on("click", ".market-btn", function () {
-  loading_spinner();
+  // loading_spinner();
   market();
 });
 $(document).on("click", "#fav_stores-btn", function () {
   if ($(this).data("disable") !== true) {
-    loading_spinner();
+    // loading_spinner();
     fav_store();
   } else {
     snackbar("Login/Register First..!");
@@ -418,21 +404,21 @@ $(document).on("click", "#fav_stores-btn", function () {
 });
 $(document).on("click", "#my_cart-btn", function () {
   if ($(this).data("disable") !== true) {
-    loading_spinner();
+    // loading_spinner();
     my_cart();
   } else {
     snackbar("Login/Register First..!");
   }
 });
 $(document).on("click", "#home-btn", function () {
-  loading_spinner();
+  // loading_spinner();
   home_content();
 });
 $(document).on("click", "#services-btn", function () {
   services_tab();
 });
 $(document).on("click", "#profile-btn", function () {
-  loading_spinner();
+  // loading_spinner();
   profile();
 });
 function load_tab() {
@@ -476,13 +462,14 @@ window.addEventListener("popstate", function () {
   document
     .getElementById("menu_container")
     .classList.remove("menu_container-display");
+  // remove_spinner();
 });
 window.addEventListener("online", () => {
   alert_el.className = alert_el.className.replace("show-alert", "");
-  remove_spinner();
+  // remove_spinner();
 });
 window.addEventListener("offline", () => {
-  loading_spinner();
+  // loading_spinner();
   document.getElementById("alert").innerHTML = `No Internet..❗❗`;
   alert_el.className = "show-alert";
 });

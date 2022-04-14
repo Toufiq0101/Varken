@@ -58,12 +58,8 @@ if (isset($_SESSION['user_id'])) {
             $u_query = "SELECT orders FROM user_storage WHERE user_id = '$u_id'";
             $p_color = isset($_POST['p_color']) ? $_POST['p_color'] : '';
             $p_size = isset($_POST['p_size']) ? $_POST['p_size'] : '';
-            $p_msg = isset($_POST['p_msg'])?$_POST['p_msg']:'';
-            if (isset($_POST['p_color']) || isset($_POST['p_size'])) {
-                $order_detail = "U:$u_id:$p_id=$p_size|$p_color|$p_msg;";
-            } else {
-                $order_detail = "U:$u_id:$p_id;";
-            };
+            $p_msg = isset($_POST['p_msg']) ? $_POST['p_msg'] : '';
+            $order_detail = "U:$u_id:$p_id=|$p_size|$p_color|$p_msg;";
             $send_c_query = mysqli_query($client_connection, $c_query);
             if ($send_c_query) {
                 while ($rows = mysqli_fetch_assoc($send_c_query)) {
@@ -75,11 +71,7 @@ if (isset($_SESSION['user_id'])) {
                         $present_orders .= "$order_detail";
                     } else {
                         $u_id_len = strlen("U:$u_id") + 1;
-                        if (isset($_POST['p_color']) || isset($_POST['p_size'])) {
-                            $order_item = "$p_id=$p_size|$p_color|$p_msg,";
-                        } else {
-                            $order_item = "$p_id,";
-                        };
+                        $order_item = "$p_id=|$p_size|$p_color|$p_msg,";
                         $pos = strpos($present_orders, "U:$u_id") + $u_id_len;
                         $present_orders = substr_replace($present_orders, $order_item, $pos, 0);
                     };
@@ -100,11 +92,7 @@ if (isset($_SESSION['user_id'])) {
                 if (isset($order_str[2]) && $order_str[2] === 'S') {
                     $my_ord_str = (!strpos($my_orders, "C:$p_p_id:") && strpos($my_orders, "C:$p_p_id:") !== 0) ? "C:$p_p_id:$p_id:S;" : "";
                 } else {
-                    if (isset($_POST['p_color']) || isset($_POST['p_size'])) {
-                        $my_ord_str = "C:$p_p_id:$p_id=$p_size|$p_color|$p_msg:O;";
-                    } else {
-                        $my_ord_str = "C:$p_p_id:$p_id:O;";
-                    };
+                    $my_ord_str = "C:$p_p_id:$p_id=|$p_size|$p_color|$p_msg:O;";
                 };
                 $my_orders .= (isset($_GET['order_img'])) ? "$user_ord_str" : "$my_ord_str";
                 $upd_u_query = "UPDATE user_storage SET orders = '$my_orders' WHERE user_id=$u_id";

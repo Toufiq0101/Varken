@@ -45,14 +45,12 @@ function wishlist_check() {
       data: { p_id_check: product_id[1] },
       success: function (data) {
         if (data == 0) {
-          document
-            .getElementById("wishlist-btn")
-            .setAttribute("fill", "#ff0040");
+          document.getElementById("wishlist-btn-color").setAttribute("fill","#ff0047ed");
         }
       },
     });
   }
-}
+};
 wishlist_check();
 $(document).ready(function () {
   $(document).on("click", ".wishlist-btn-container", function () {
@@ -64,14 +62,10 @@ $(document).ready(function () {
         data: { p_id: el.data("p_id") },
         success: function (checks) {
           if (Number(checks) === 1) {
-            document
-              .getElementById("wishlist-btn")
-              .setAttribute("fill", "#ff0040");
+            document.getElementById("wishlist-btn-color").setAttribute("fill","#ff0047ed");
           }
           if (Number(checks) === 2) {
-            document
-              .getElementById("wishlist-btn")
-              .setAttribute("fill", "#ffffff");
+            document.getElementById("wishlist-btn-color").setAttribute("fill","#00000000");
           }
         },
       });
@@ -137,7 +131,7 @@ $(document).on("click", "#add_to_cart", function () {
         data: product_dtl,
         success: function (data) {
           console.log(data);
-          if (Number(data) === 1) {
+          if (data.includes("qnt")) {
             snackbar("Added to Cart");
           } else {
             snackbar("Unable to add..Refresh");
@@ -259,9 +253,6 @@ if (
   root.style.setProperty("--order-reciept-text-color", "#001220");
   root.style.setProperty("--order-modal-label", "#00071d");
   root.style.setProperty("--order-modal-detail", "#020202");
-  document
-    .getElementById("wishlist-btn-container")
-    .setAttribute("fill", "#00012c");
 }
 document.getElementById("search-field").addEventListener("keydown", function (e) {
   if (e.code === 'Enter') {
@@ -271,3 +262,4 @@ document.getElementById("search-field").addEventListener("keydown", function (e)
 document.getElementById("search-btn").addEventListener("click", () => {
   window.location.href = `/?search=${document.getElementById("search-field").value}`
 });
+

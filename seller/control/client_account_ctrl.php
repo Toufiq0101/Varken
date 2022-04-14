@@ -72,6 +72,8 @@ if (isset($_GET['register']) || isset($_GET['edit'])) {
         };
         img_manager("profile_img", "client_image");
         img_manager("store_img", "store_image");
+        echo $store_image;
+        echo $client_image;
         if (isset($_GET['edit'])) {
             $send_client_query = "UPDATE client_storage SET store_name='$store_name', owner_name='$client_name' ,seller_type='$seller_type', store_description='$client_store_description', phone_number='$client_phone_number',client_password='$client_password', client_image ='$client_image', store_image='$store_image', store_location = '$store_location', loc_district = '$client_district', _geoloc = '{ \"lat\" : $client_lat , \"lng\" : $client_long }' WHERE client_id = $_SESSION[client_id]";
             $update_client_products = "UPDATE product_storage SET store_name = '$store_name' , seller_ph_num = '$client_phone_number' , store_image = '$store_image' , store_location = '$store_location', _geoloc = JSON_OBJECT('lat', $client_lat, 'lng', $client_long) WHERE seller_id = $_SESSION[client_id]";

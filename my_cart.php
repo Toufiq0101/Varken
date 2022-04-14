@@ -54,13 +54,11 @@ if (isset($_SESSION['user_id'])) {
                         echo "<a href = './product.php?i=$p_id' class='overview-detail price'>Color : <span class='product_color' style='background-color:#000000;' data-color='#000000'></span></a>";
                     };
                     echo "<div class='btn-container'>Qnt : 
-                    <div class='l6-p-c-cart-btn' data-add_item='$cart_dtl[1]:$p_id'><span class='del_cart_item_btn'
-                    data-cart_str='$cart_dtl[1]:$p_id'>–</span><span>$p_qnty</span><span class='quicki_add_to_cart-btn' data-add_item='31:546'>+</span>
+                    <div class='l6-p-c-cart-btn'><span class='del_cart_item_btn'
+                    data-cart_str='$cart_dtl[1]:$p_id' onclick='my_cart()'>–</span><span>$p_qnty</span><span class='quicki_add_to_cart-btn' data-add_item='$cart_dtl[1]:$p_id'>+</span>
                 </div>
                 </div>
-                </div>-8    
-                </div>
-                </div>";
+                </div></div></div>";
                     // <img class='delete-icon del_cart_item_btn' data-cart_str='$cart_dtl[1]:$p_id' src='./css/svg/remove_cart.svg'>
                 };
             };

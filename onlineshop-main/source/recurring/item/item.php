@@ -14,7 +14,7 @@
 
             <img id="item_top_img" src="\onlineshop-main\images/CREME_001ssVTw3rE0za3M.jpg" alt="item imge">
             <!-- change by annone -->
-            <div id="favourites" class='wishlist-btn' onclick="add_to_wishlist(this)">
+            <div id="favourites" class='wishlist-btn' onclick='add_to_wishlist(this)'>
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#000000">
     <path d="M0 0h24v24H0V0z" fill="none" />
     <path 

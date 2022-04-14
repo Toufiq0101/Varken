@@ -289,3 +289,23 @@ window.onclick = function (event) {
     zoomed_img.style.display = "none";
   }
 };
+function submit_rating(q) {
+  const prd_dtl = $(q).data("ord_dtl");
+  const prd_id = $(q).data("p_id");
+  $(q).parent("div").children("div").children("input").addClass("rating_input");
+  if ($(".ratingForm :radio:checked").length == 0) {
+    $('#status').html("nothing checked");
+    return false;
+  } else {
+    const rating_star = $(q).parent("div").children("div").children('input:radio[name=rating]:checked').val();
+    $.ajax({
+      url: "./control/ctrl_rating.php",
+      data: { prd_str: prd_dtl, p_id: prd_id, rating: rating_star },
+      type:"POST",
+      success:function(){
+        my_orders("order_history");
+        snackbar("Thanks for Reviews");
+      }
+    });
+  };
+};

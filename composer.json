@@ -1,5 +1,6 @@
 {
     "require": {
-        "algolia/algoliasearch-client-php": "^3.2"
+        "algolia/algoliasearch-client-php": "^3.2",
+        "ext-gd":"*"
     }
 }
