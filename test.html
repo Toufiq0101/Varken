@@ -17,32 +17,91 @@
       background-color: white;
       border: 1px solid black;
       border-radius: 10px 10px 0px 0px;
-      height: 50vh;
+      height: 0;
       width: 95%;
       margin: 0% 2.5% 0% 2.5%;
       position: absolute;
       bottom: 0;
-      animation-name: mneu_btn_animation;
-      animation-duration: 1s;
+      opacity: 0;
     }
 
-    @keyframes mneu_btn_animation {
+    .opened-menu-cntnr {
+      height: 50vh;
+      /* width: 95%; */
+      margin: 0% 2.5% 0% 2.5%;
+      animation-name: menu_btn_animation-add;
+      animation-duration: .4s;
+      opacity: 1;
+    }
+
+    .remove-menu-cntnr {
+      height: 0;
+      /* width: 95%; */
+      margin: 0% 2.5% 0% 2.5%;
+      animation-name: menu_btn_animation-remove;
+      animation-duration: .4s;
+      opacity: 1;
+    }
+
+    @keyframes menu_btn_animation-add {
       from {
         height: 0px;
-        width: 0px;
+        /* width: 0px; */
       }
 
       to {
         height: 50vh;
-        width: 95%;
+        /* width: 95%; */
+      }
+    }
+
+    @keyframes menu_btn_animation-remove {
+      from {
+        height: 50vh;
+        /* width: 95%; */
+      }
+
+      to {
+        height: 0px;
+        /* width: 0px; */
       }
     }
   </style>
 </head>
 
 <body>
+  <button id="menu-btn">++++</button>
   <div class="spcl-feature-popup-cntnr">
+    <span class="title">Custom Order</span>
+    <div class="sp_f_p_form-cntnr">
+      <form method="post">
+        <input type="file" class="choose_img-btn" />
+        <span class="upload_img-label">UPLOAD</span>
+        <span class="file-upload-intruction">Upload List of Monthly groceries, Medical presciptions, image of item you want.</span>
+        <label for="c-o-f-order-genre">Order Genre</label>
+        <input type="text" list="c-o-f-order-genre-list">
+        <datalist id="c-o-f-order-genre-list">
+          <option value="Groceries"></option>
+          <option value="Medicines"></option>
+          <option value="Vegitables and Friuts"></option>
+          <option value="Others"></option>
+        </datalist>
+      </form>
+    </div>
   </div>
+  <script>
+    document.querySelector("#menu-btn").addEventListener("click", function () {
+      if (!document.querySelector(".spcl-feature-popup-cntnr").classList.contains("opened-menu-cntnr")) {
+        document.querySelector(".spcl-feature-popup-cntnr").classList.add("opened-menu-cntnr")
+        document.querySelector(".spcl-feature-popup-cntnr").classList.remove("remove-menu-cntnr")
+      } else {
+        if (document.querySelector(".spcl-feature-popup-cntnr").classList.contains("opened-menu-cntnr")) {
+          document.querySelector(".spcl-feature-popup-cntnr").classList.add("remove-menu-cntnr")
+          document.querySelector(".spcl-feature-popup-cntnr").classList.remove("opened-menu-cntnr")
+        }
+      }
+    })
+  </script>
 </body>
-
+<!--  If we are unable to find some products we'll manage it from somewhere or may cancle the order. -->
 </html>

@@ -27,12 +27,12 @@ $product_id = $rows['product_id'];
 echo "
 <div class='main-overview-container'>
 <div class='overview_container'>
-<a href='/u/product.php?i=$product_id' class='overview-img_container'>
+<a href='/product.php?i=$product_id' class='overview-img_container'>
 <img class='overview-img' src='../uploaded_files/$product_image[0]' loading='lazy'>
 </a>
 <div class='overview-details-list '>
-<a href='/u/product.php?i=$product_id' class='overview-detail name'>$product_name</a>
-<a href='/u/product.php?i=$product_id' class='overview-detail price'>Rs.$product_price</a>
+<a href='/product.php?i=$product_id' class='overview-detail name'>$product_name</a>
+<a href='/product.php?i=$product_id' class='overview-detail price'>Rs.$product_price</a>
 <div class='btn-container'>
 <i style='background-color:#ff000000;' class='btn-1 del-wishlist' data-p_id='$product_id'><img src='./css/svg/remove.png' alt=''></i>
 </div>

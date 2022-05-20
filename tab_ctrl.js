@@ -457,14 +457,13 @@ function load_tab() {
   }
 }
 load_tab();
-SpeechRecognitionAlternative();
 load_tab();
 window.addEventListener("popstate", function () {
   load_tab();
   document
     .getElementById("menu_container")
     .classList.remove("menu_container-display");
-  // remove_spinner();
+    // remove_spinner();
 });
 window.addEventListener("online", () => {
   alert_el.className = alert_el.className.replace("show-alert", "");
@@ -475,3 +474,4 @@ window.addEventListener("offline", () => {
   document.getElementById("alert").innerHTML = `No Internet..❗❗`;
   alert_el.className = "show-alert";
 });
+SpeechRecognitionAlternative();

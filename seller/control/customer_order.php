@@ -27,6 +27,13 @@ if ($_SESSION['client_id']) {
         };
     } else {
         foreach ($p_id_array as $p_id) {
+            if (strpos($p_id, '=')) {
+                $p_dtl = explode('=', $p_id);
+                $prd_specifics = explode('|', $p_dtl[1]);
+                $p_id = $p_dtl[0];
+            } else {
+                $prd_specifics = '';
+            };
             $img_check = false;
             $imageExt = explode('.', $p_id);
             $imageActExt = strtolower(end($imageExt));
@@ -38,13 +45,6 @@ if ($_SESSION['client_id']) {
                 echo " <div class='product_overview_container'> <div class='product_overview'> <span id='cncl_cstm_ord' class='cncl_cstm_ord-btn' data-cncl_str= '$_SESSION[client_id]:$u_id:$p_id'>&times</span> <img class='product-image zoom-img' id='zoom-img' src='../../uploaded_files/$p_id'></div></div>";
                 $total_bill = 0;
             } elseif (!$img_check && $p_id) {
-                if (strpos($p_id, '=')) {
-                    $p_dtl = explode('=', $p_id);
-                    $prd_specifics = explode('|', $p_dtl[1]);
-                    $p_id = $p_dtl[0];
-                } else {
-                    $prd_specifics = '';
-                };
                 $p_query = "SELECT product_name,product_image,product_price FROM product_storage WHERE product_id = $p_id";
                 $send_p_query = mysqli_query($product_connection, $p_query);
                 while ($rows = mysqli_fetch_assoc($send_p_query)) {
@@ -58,17 +58,17 @@ if ($_SESSION['client_id']) {
                     };
                     echo "'>&times</span><div class='product_image'> <img class='product-image' src='../../uploaded_files/$product_all_images[0]'></div><div class='product_details product_page_link'> <span class='product-name'>$product_name</span><span class='product-price'>Rs. $formated_price</span>";
                     if (isset($prd_specifics) && $prd_specifics !== '') {
-                        if ($prd_specifics[0]!=='') {
-                            echo "<span class='product_name'>Quantity: $prd_specifics[0]</span>";
+                        if ($prd_specifics[0] !== '') {
+                            echo "<span class='product_name'>Qnt: $prd_specifics[0]</span>";
                         }
                         if ($prd_specifics[1] !== '') {
                             echo "<span class='product_name'>Size: $prd_specifics[1]</span>";
                         }
-                        if ($prd_specifics[2]!=='') {
+                        if ($prd_specifics[2] !== '') {
                             echo "<span class='product_name'>Color: <input type='color' value='$prd_specifics[2]' disabled></span>";
                         }
-                        if ($prd_specifics[3]!=='') {
-                            echo "<span class='product_name'>Message: $prd_specifics[3]</span>";
+                        if ($prd_specifics[3] !== '') {
+                            echo "<span class='product_name'>Msg: $prd_specifics[3]</span>";
                         }
                     };
                     echo "</div></div></div>";

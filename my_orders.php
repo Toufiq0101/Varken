@@ -109,6 +109,7 @@ if (isset($_SESSION['user_id'])) {
                         };
                     } else {
                         $p_id = explode(":",explode("=",$p_dtl)[0])[2];
+                        $order_info = explode('|',(explode(':',explode("=",$p_dtl)[1])[0]));
                         $get_p_dtl_query = "SELECT product_name,product_price,product_id,product_image,seller_id FROM product_storage WHERE product_id = '$p_id' ";
                         $p_send_query = mysqli_query($product_connection, $get_p_dtl_query);
                         while ($rows = mysqli_fetch_assoc($p_send_query)) {
@@ -131,6 +132,18 @@ if (isset($_SESSION['user_id'])) {
 <div class='overview-details-list '>
 <a href= './product.php?i=$product_id' class='overview-detail name'>$product_name</a>
 <a href= './product.php?i=$product_id' class='overview-detail price'>Rs.$product_price</a>";
+if($order_info[0]!==''){
+    echo "<a href= './product.php?i=$product_id' class='overview-detail name'>Qnt: $order_info[0]</a>";
+}
+if($order_info[1]!==''){
+    echo "<a href= './product.php?i=$product_id' class='overview-detail name'>Size: $order_info[1]</a>";
+}
+if($order_info[2]!==''){
+    echo "<a href= './product.php?i=$product_id' class='overview-detail name'>Color: $order_info[2]</a>";
+}
+if($order_info[3]!==''){
+    echo "<a href= './product.php?i=$product_id' class='overview-detail name'>Msg: $order_info[3]</a>";
+}
                             if (isset($ord_dtl[3])) {
                                 if ($ord_dtl[3] === 'R') {
                                     echo "<a href= './product.php?i=$product_id' class='overview-detail'>Will be Recived soon</a>";

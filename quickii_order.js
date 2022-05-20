@@ -104,6 +104,9 @@ $(document).on("click", "#order_btn", function () {
   if (decodeURIComponent(document.cookie).includes("u_authentication")) {
     const p_name = $(this).data("p_name");
     const order_str = $(this).data("order_str");
+    if(document.querySelector("#specific-msg-bar")){
+      message = document.querySelector("#specific-msg-bar").value;
+    }
     move_on = true;
     const order_dtl = { order_str: order_str };
     if (document.querySelector(".color-option")) {
@@ -122,6 +125,8 @@ $(document).on("click", "#order_btn", function () {
         move_on = true;
       }
     }
+    Object.assign(order_dtl, { p_msg: message });
+    console.log(order_dtl);
     if (move_on) {
       $.ajax({
         url: "./control/orders.php",
